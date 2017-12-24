@@ -1,0 +1,3 @@
+Strategy atua de modo que seja possível alterar as estratégias (estrutura do objeto) para resolver um problema. Essa escolha pode ficar a cargo do lado do cliente.
+
+State a estrutura muda automaticamente de acordo com a situação. Dependendo de como o cliente está, o estado muda.

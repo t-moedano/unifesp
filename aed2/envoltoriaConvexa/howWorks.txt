@@ -1,0 +1,1 @@
+This program calculates the coordenates of a convex hull

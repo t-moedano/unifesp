@@ -1,0 +1,1 @@
+PS: O projeto foi dividido em duas parte porque a placa não funcionava bem com todos os componentes juntos.

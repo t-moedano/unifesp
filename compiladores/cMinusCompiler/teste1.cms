@@ -1,0 +1,33 @@
+int z;
+
+int gcd(int u, int v)
+{ if(v == 0) return u;
+else return gcd(v, u-u/v*v);
+}
+
+int input(void){
+}
+
+void output(int i){
+   int x;
+}
+
+void main(int oi)
+{
+int y;
+int x;
+int v[10];
+
+y = input();
+output(gcd(x,y));
+
+while(x<10)
+{
+   v[y] = 1;
+   v[y] = v[x];
+
+}
+
+return;
+
+}

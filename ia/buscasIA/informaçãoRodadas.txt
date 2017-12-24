@@ -1,0 +1,7539 @@
+         
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>run.bat
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>g++ -o buscaProfundidade buscaProfundidade.cpp
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>g++ -o buscaLargura buscaLargura.cpp
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>g++ -o buscaGulosah1 buscaGulosah1.cpp
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>g++ -o buscaGulosah2 buscaGulosah2.cpp
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>g++ -o buscaGulosah3 buscaGulosah3.cpp
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>ECHO Rodando Busca em Largua
+Rodando Busca em Largua
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>FOR /L %i IN (1 1 100) DO buscaLargura
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 1 4
+7 5
+2 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  1 4
+2 5 3
+7 0 6
+Tempo final: 90.001
+N·mero de movimentos: 40903
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+1 4 7
+5   2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 3
+5   0
+6 2 7
+Tempo final: 90.004
+N·mero de movimentos: 40004
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 6
+0 3 7
+1 4 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 1
+4   2
+3 6 5
+Tempo final: 90.001
+N·mero de movimentos: 38842
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+2 5
+3 6 0
+7 1 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  6 0
+3 4 1
+5 2 7
+Tempo final: 90.004
+N·mero de movimentos: 38882
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4
+2 5 3
+6 0 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  5 1
+3 0 7
+2 4 6
+Tempo final: 90.003
+N·mero de movimentos: 41103
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 1
+  2 5
+3 6 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 3 6
+  1 5
+7 4 0
+Tempo final: 90.007
+N·mero de movimentos: 42551
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 4
+7 1
+2 5 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5 0
+7 2 4
+3   6
+Tempo final: 90.011
+N·mero de movimentos: 42593
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+1 4 7
+5   2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 6
+5   1
+2 4 3
+Tempo final: 90.012
+N·mero de movimentos: 42437
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 6
+0 3 1
+4 7 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 3
+4   1
+5 7 2
+Tempo final: 90
+N·mero de movimentos: 40972
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+2 5
+6 0 3
+1 4 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 3 4
+7 2 1
+5 6
+Tempo final: 90.006
+N·mero de movimentos: 41085
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 2
+5   6
+0 3 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6   4
+7 2 0
+3 5 1
+Tempo final: 90.015
+N·mero de movimentos: 41346
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 4
+2 5
+3 6 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 3 6
+2 1
+0 7 4
+Tempo final: 90
+N·mero de movimentos: 42557
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 4
+7 1
+2 5 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 0 4
+1 7 3
+2   6
+Tempo final: 90.002
+N·mero de movimentos: 42620
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+4 7 1
+  2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1 7
+6 0 2
+  4 5
+Tempo final: 90.008
+N·mero de movimentos: 41038
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+2 5 0
+3 6 4
+7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 3 2
+7   5
+0 6 4
+Tempo final: 90.014
+N·mero de movimentos: 41180
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   2
+0 3 6
+1 4 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4   6
+1 2 7
+3 5 0
+Tempo final: 90.009
+N·mero de movimentos: 42529
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 1
+5   2
+6 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2   1
+7 6 4
+0 5 3
+Tempo final: 90.015
+N·mero de movimentos: 41348
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7 2
+4 6
+3 1 0
+Tempo final: 90.001
+N·mero de movimentos: 42501
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 3
+7 1 4
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  7 2
+6 0 1
+5 4 3
+Tempo final: 90.004
+N·mero de movimentos: 39663
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   3
+6 0 7
+1 4 2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0
+7 6 2
+1 5 4
+Tempo final: 90.01
+N·mero de movimentos: 40957
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+3 6 0
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 5 3
+2   4
+7 6 1
+Tempo final: 90.014
+N·mero de movimentos: 39043
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 4
+  2 5
+0 3 6
+Calculando..
+Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7 
+Tempo final: 23.837
+N·mero de movimentos: 21035
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 0 1
+2   3
+6 4 7
+Tempo final: 90.012
+N·mero de movimentos: 42350
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+4 7 1
+  2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 4 0
+2 1 7
+  3 5
+Tempo final: 90.005
+N·mero de movimentos: 41193
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+2 5 0
+3 6 4
+7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+0   3
+6 7 4
+Tempo final: 90.01
+N·mero de movimentos: 41179
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   2
+0 3 6
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3   4
+1 2 7
+5 0 6
+Tempo final: 90.016
+N·mero de movimentos: 42598
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 5
+  2 0
+3 6 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 7 0
+5 3 1
+  4 6
+Tempo final: 90.003
+N·mero de movimentos: 41100
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4 7
+5   2
+6 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 4
+  3 5
+6 2 7
+Tempo final: 90.006
+N·mero de movimentos: 39806
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 4
+6 5 2
+  7 3
+Tempo final: 90
+N·mero de movimentos: 40145
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+7 1 4
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7 1
+2   0
+4 5 6
+Tempo final: 90.008
+N·mero de movimentos: 38823
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   3
+6 0 7
+1 4 2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 2 0
+3   4
+6 5 1
+Tempo final: 90.002
+N·mero de movimentos: 40540
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+3 6 0
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 2
+0 5 1
+3 7 6
+Tempo final: 90.004
+N·mero de movimentos: 39654
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 4
+  2 5
+0 3 6
+Calculando..
+Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7 
+Tempo final: 23.07
+N·mero de movimentos: 21035
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4
+2 5 6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5   2
+4 1 3
+0 6 7
+Tempo final: 90.016
+N·mero de movimentos: 42499
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+4 7 1
+  2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 1
+7   5
+2 4 3
+Tempo final: 90.01
+N·mero de movimentos: 39188
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+2 5 0
+3 6 4
+7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 6 5
+0   4
+1 2 3
+Tempo final: 90
+N·mero de movimentos: 39530
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   2
+0 3 6
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 5
+7 1 6
+  2 3
+Tempo final: 90.01
+N·mero de movimentos: 40867
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 5
+  2 0
+3 6 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 7 6
+5 0 4
+2 3
+Tempo final: 90.014
+N·mero de movimentos: 40291
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4 7
+2 5
+6 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 7
+2 1 4
+3 5
+Tempo final: 90.002
+N·mero de movimentos: 41645
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 0
+4   6
+5 3 7
+Tempo final: 90.005
+N·mero de movimentos: 40758
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+7 1 4
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 6 4
+5 0 3
+1 2
+Tempo final: 90.01
+N·mero de movimentos: 41194
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   3
+6 0 7
+1 4 2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 4
+1 3
+5 7 6
+Tempo final: 90.001
+N·mero de movimentos: 42581
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+3 6 0
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 5 6
+1   4
+0 7 2
+Tempo final: 90.001
+N·mero de movimentos: 41238
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 4
+  2 5
+0 3 6
+Calculando..
+Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7 
+Tempo final: 26.358
+N·mero de movimentos: 21035
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4
+2 5 3
+6 0 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  3 7
+2 1 0
+5 4 6
+Tempo final: 90.009
+N·mero de movimentos: 38180
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 1
+  2 5
+3 6 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1 4
+0 3 7
+6 5
+Tempo final: 90.002
+N·mero de movimentos: 40043
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 4
+7 1
+2 5 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 0 1
+2 3 5
+  7 4
+Tempo final: 90.008
+N·mero de movimentos: 41202
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+4 7 1
+5   2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 0 7
+4   3
+1 6 2
+Tempo final: 90.001
+N·mero de movimentos: 39887
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+0 3 6
+1 4 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  3 6
+0 1 7
+4 5 2
+Tempo final: 90.011
+N·mero de movimentos: 39551
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 2
+5   6
+0 3 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 4 5
+  7 2
+3 0 6
+Tempo final: 90.014
+N·mero de movimentos: 39801
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 4
+2 5
+6 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 5
+1 3 4
+0 7 6
+Tempo final: 90.007
+N·mero de movimentos: 40814
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 7
+3   5
+0 1 4
+Tempo final: 90.001
+N·mero de movimentos: 41503
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+7 1 4
+  2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1 6
+0 7 4
+  3 5
+Tempo final: 90
+N·mero de movimentos: 41183
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+2 5
+3 6 0
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7 5
+1   0
+4 2 6
+Tempo final: 90.014
+N·mero de movimentos: 40166
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 5
+  2 0
+3 6 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 2 6
+0 5
+1 7 4
+Tempo final: 90.004
+N·mero de movimentos: 42524
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4 7
+5   2
+0 3 6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 7
+  2 0
+3 5 6
+Tempo final: 90.013
+N·mero de movimentos: 41139
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 1
+4 7 5
+  2 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 5
+2 4 6
+0 3
+Tempo final: 90.004
+N·mero de movimentos: 39069
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 3
+1 4 7
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  4 0
+6 3 5
+2 1 7
+Tempo final: 90.005
+N·mero de movimentos: 38744
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   2
+6 0 3
+7 1 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 7 3
+1 4 5
+  6 0
+Tempo final: 90.008
+N·mero de movimentos: 42279
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4
+2 5 3
+6 0 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 3
+5 2 7
+0 6 4
+Tempo final: 90.002
+N·mero de movimentos: 38861
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 1
+  2 5
+3 6 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  2 0
+5 4 7
+1 3 6
+Tempo final: 90.014
+N·mero de movimentos: 41766
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 4
+7 1
+2 5 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  6 5
+0 4 1
+2 3 7
+Tempo final: 90.003
+N·mero de movimentos: 40565
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+4 7 1
+5   2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 6
+2 4 0
+3 1 7
+Tempo final: 90.003
+N·mero de movimentos: 40792
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+0 3 6
+1 4 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 5
+4   6
+7 2 3
+Tempo final: 90
+N·mero de movimentos: 38727
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 1
+5   2
+6 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 4 1
+2 5
+7 3 0
+Tempo final: 90.002
+N·mero de movimentos: 39483
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 4 3
+7   0
+6 1 2
+Tempo final: 90.014
+N·mero de movimentos: 40104
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+7 1 4
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 5 6
+1 4 2
+3 0
+Tempo final: 90
+N·mero de movimentos: 38870
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   3
+6 0 7
+1 4 2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1
+5 2 4
+6 0 7
+Tempo final: 90.003
+N·mero de movimentos: 41208
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+3 6 0
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 4 5
+7 2 1
+6 0
+Tempo final: 90
+N·mero de movimentos: 39075
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 4
+  2 5
+0 3 6
+Calculando..
+Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7 
+Tempo final: 23.181
+N·mero de movimentos: 21035
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4
+2 5 6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 2 1
+3 7 6
+5 0
+Tempo final: 90.014
+N·mero de movimentos: 40952
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+4 7 1
+  2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 3 7
+2   5
+1 4 0
+Tempo final: 90.011
+N·mero de movimentos: 39405
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+2 5 0
+3 6 4
+7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  7 0
+1 5 2
+3 6 4
+Tempo final: 90
+N·mero de movimentos: 39363
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   2
+0 3 6
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7 4
+6 0 2
+5   1
+Tempo final: 90.018
+N·mero de movimentos: 42513
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 5
+  2 0
+3 6 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 1
+3 7 5
+  4 2
+Tempo final: 90.009
+N·mero de movimentos: 41005
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4 7
+2 5
+6 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 5 2
+1 6 3
+0 7
+Tempo final: 90.014
+N·mero de movimentos: 41370
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 4 6
+1 7 2
+5 0
+Tempo final: 90.003
+N·mero de movimentos: 41541
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+7 1 4
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 7 2
+3 4 6
+5 0
+Tempo final: 90.005
+N·mero de movimentos: 39430
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   3
+6 0 7
+1 4 2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 2
+7   4
+5 1 6
+Tempo final: 90.014
+N·mero de movimentos: 42034
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+3 6 0
+4 7 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 0 3
+6   5
+7 1 2
+Tempo final: 90.009
+N·mero de movimentos: 38697
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 5
+  2 0
+3 6 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2
+3 4 1
+6 5 7
+Tempo final: 90.005
+N·mero de movimentos: 40944
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4 7
+5   2
+0 3 6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3   4
+2 0 5
+1 6 7
+Tempo final: 90.015
+N·mero de movimentos: 39674
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 1
+4 7 5
+  2 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 0
+6 2 1
+4 5 3
+Tempo final: 90.01
+N·mero de movimentos: 39467
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 3
+1 4 7
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 3 2
+4   0
+5 6 7
+Tempo final: 90.005
+N·mero de movimentos: 38993
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   2
+6 0 3
+7 1 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 2 5
+0   3
+6 7 1
+Tempo final: 90.007
+N·mero de movimentos: 40584
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4
+2 5 3
+6 0 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7 2
+4 0 5
+6 1
+Tempo final: 90.008
+N·mero de movimentos: 39309
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 1
+  2 5
+3 6 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  0 6
+7 1 4
+2 3 5
+Tempo final: 90.005
+N·mero de movimentos: 40414
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 4
+7 1
+2 5 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7 0
+6 2 4
+5 1
+Tempo final: 90.001
+N·mero de movimentos: 40173
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+4 7 1
+5   2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 4 6
+5 0 7
+  3 2
+Tempo final: 90.014
+N·mero de movimentos: 41210
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+1 4 7
+2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  2 0
+5 3 4
+7 1 6
+Tempo final: 90.006
+N·mero de movimentos: 39697
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+5   2
+6 0 3
+7 1 4
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  7 6
+2 3 5
+1 4 0
+Tempo final: 90.008
+N·mero de movimentos: 40914
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+1 4
+2 5 3
+6 0 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 7
+1 6 2
+5 3 0
+Tempo final: 90.01
+N·mero de movimentos: 39245
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 1
+  2 5
+3 6 0
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1
+3 5 6
+0 4 7
+Tempo final: 90.001
+N·mero de movimentos: 40197
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+6 0 4
+7 1
+2 5 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 0 3
+5 1 6
+2 4
+Tempo final: 90.012
+N·mero de movimentos: 40198
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 6
+4 7 1
+5   2
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 6
+5   7
+2 0 3
+Tempo final: 90.003
+N·mero de movimentos: 40825
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+  2 5
+0 3 6
+1 4 7
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 5 7
+1 6 4
+  3 2
+Tempo final: 90.013
+N·mero de movimentos: 40394
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+4 7 2
+5   6
+0 3 1
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 6 1
+7 2
+3 0 4
+Tempo final: 90.007
+N·mero de movimentos: 39868
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+7 1 4
+2 5
+6 0 3
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 3 7
+2   1
+0 6 5
+Tempo final: 90.008
+N·mero de movimentos: 40201
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+0 3 7
+1 4 2
+5   6
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 3 7
+0   1
+6 2 5
+Tempo final: 90.01
+N·mero de movimentos: 40092
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaLargura
+3 6 0
+7 1 4
+  2 5
+Calculando..
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2
+5 0 4
+3 1 7
+Tempo final: 90.005
+N·mero de movimentos: 38710
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>ECHO Rodando Busca em Profundidade
+Rodando Busca em Profundidade
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>FOR /L %i IN (1 1 100) DO buscaProfundidade
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+3 6 0
+4 7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 0 1
+6 3 5
+2   7
+Tempo final: 90.009
+N·mero de movimentos: 11573
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 5
+  2 0
+3 6 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 6
+  3 7
+5 0 4
+Tempo final: 90.001
+N·mero de movimentos: 11588
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4 7
+5   2
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 3 4
+7   1
+6 5 2
+Tempo final: 90.008
+N·mero de movimentos: 11498
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 1
+4 7 5
+  2 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 4 1
+  0 5
+2 6 3
+Tempo final: 90.006
+N·mero de movimentos: 11241
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 3
+1 4 7
+2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 6 0
+4 2 3
+1   7
+Tempo final: 90.011
+N·mero de movimentos: 11447
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   2
+6 0 3
+7 1 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7 6
+3 4 2
+0   1
+Tempo final: 90.007
+N·mero de movimentos: 12186
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4 7
+2 5
+3 6 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 2 3
+0   4
+1 6 7
+Tempo final: 90.004
+N·mero de movimentos: 11431
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 4
+7 1
+2 5 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1 2
+4 6 5
+7   0
+Tempo final: 90
+N·mero de movimentos: 9650
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 6
+4 7 1
+  2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 0
+  7 6
+3 2 5
+Tempo final: 90.006
+N·mero de movimentos: 11769
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5 0
+3 6 4
+7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 3 1
+  7 5
+6 2 0
+Tempo final: 90.017
+N·mero de movimentos: 11167
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   2
+0 3 6
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 4 0
+5 3 6
+  2 7
+Tempo final: 90.006
+N·mero de movimentos: 11321
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 1
+5   2
+6 0 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 0
+3   4
+7 6 5
+Tempo final: 90
+N·mero de movimentos: 10958
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 7
+1 4 2
+5   6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  1 2
+3 6 7
+4 0 5
+Tempo final: 90.007
+N·mero de movimentos: 11635
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 0
+7 1 4
+2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1 6
+7   0
+4 2 5
+Tempo final: 90.011
+N·mero de movimentos: 11406
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   3
+6 0 7
+1 4 2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 2 4
+  5 6
+3 0 1
+Tempo final: 90.015
+N·mero de movimentos: 11582
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 5
+3 6 0
+4 7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  2 7
+4 5 6
+1 3 0
+Tempo final: 90.005
+N·mero de movimentos: 11636
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+  2 5
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 4 3
+7 6 2
+  0 5
+Tempo final: 90.005
+N·mero de movimentos: 11645
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 1
+4 7 5
+  2 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 3 1
+  2 5
+4 6 7
+Tempo final: 90.007
+N·mero de movimentos: 11629
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 3
+1 4 7
+5   2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 0 7
+  5 2
+1 6 3
+Tempo final: 90.006
+N·mero de movimentos: 11672
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 6
+0 3 1
+4 7 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 0 6
+  4 2
+1 3 7
+Tempo final: 90.013
+N·mero de movimentos: 11703
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+6 0 3
+7 1 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 5 3
+7   4
+0 1 2
+Tempo final: 90
+N·mero de movimentos: 11744
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4 7
+2 5
+3 6 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 7 4
+5   0
+6 1 3
+Tempo final: 90.002
+N·mero de movimentos: 11683
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 4
+7 1
+2 5 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 4 0
+  5 3
+6 1 2
+Tempo final: 90.001
+N·mero de movimentos: 11678
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 6
+4 7 1
+  2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 4 0
+  6 5
+1 2 7
+Tempo final: 90.009
+N·mero de movimentos: 11747
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5 0
+3 6 4
+7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 2 4
+  6 3
+7 0 1
+Tempo final: 90.008
+N·mero de movimentos: 11715
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   2
+0 3 6
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 4
+1 5 0
+3   7
+Tempo final: 90.006
+N·mero de movimentos: 11844
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 1
+5   2
+6 0 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 6
+  5 7
+3 4 2
+Tempo final: 90.005
+N·mero de movimentos: 11641
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 6
+1 4 7
+2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  3 7
+4 1 5
+0 2 6
+Tempo final: 90.016
+N·mero de movimentos: 11680
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   3
+6 0 7
+1 4 2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 3 4
+1   6
+2 5 7
+Tempo final: 90.008
+N·mero de movimentos: 11781
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 5
+3 6 0
+7 1 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 3 0
+7 5 2
+  1 4
+Tempo final: 90
+N·mero de movimentos: 11822
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4
+2 5 3
+6 0 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 4 7
+5   1
+0 2 6
+Tempo final: 90.006
+N·mero de movimentos: 11726
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 1
+  2 5
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 5 1
+  6 7
+2 0 3
+Tempo final: 90.003
+N·mero de movimentos: 11726
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 0
+4 7 1
+5   2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 4
+3   6
+5 0 2
+Tempo final: 90.005
+N·mero de movimentos: 11775
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 6
+0 3 1
+4 7 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 3 7
+6   5
+0 4 1
+Tempo final: 90.006
+N·mero de movimentos: 11598
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+6 0 3
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 5 7
+6 4 2
+0   1
+Tempo final: 90.006
+N·mero de movimentos: 11719
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 2
+5   6
+0 3 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 3 0
+  6 7
+1 5 4
+Tempo final: 90
+N·mero de movimentos: 11801
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+2 5
+3 6 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1 4
+6 5 0
+3   7
+Tempo final: 90.003
+N·mero de movimentos: 11750
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 3
+7 1 4
+  2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 3 6
+  4 5
+2 0 1
+Tempo final: 90.013
+N·mero de movimentos: 11739
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5 0
+3 6 4
+7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 4 3
+  7 1
+5 2 0
+Tempo final: 90.012
+N·mero de movimentos: 11741
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   2
+0 3 6
+4 7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 6 0
+5   7
+2 4 1
+Tempo final: 90
+N·mero de movimentos: 11667
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 5
+  2 0
+3 6 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 6
+3 0 7
+5   4
+Tempo final: 90.017
+N·mero de movimentos: 11578
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4 7
+5   2
+6 0 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 0
+5 6 3
+  2 4
+Tempo final: 90.008
+N·mero de movimentos: 11732
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 6
+1 4 7
+2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 2 1
+  6 7
+5 0 3
+Tempo final: 90.008
+N·mero de movimentos: 11803
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   3
+6 0 7
+1 4 2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 4 1
+  6 3
+7 0 5
+Tempo final: 90.002
+N·mero de movimentos: 11562
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 5
+3 6 0
+7 1 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  0 5
+3 4 2
+6 7 1
+Tempo final: 90.011
+N·mero de movimentos: 11726
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4
+2 5 3
+6 0 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  5 3
+4 2 7
+0 6 1
+Tempo final: 90.002
+N·mero de movimentos: 11766
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 1
+  2 5
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 1 7
+  4 3
+2 6 0
+Tempo final: 90.003
+N·mero de movimentos: 11742
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 0
+4 7 1
+5   2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7 4
+2   1
+5 0 6
+Tempo final: 90.006
+N·mero de movimentos: 11787
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 5
+0 3 6
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 6
+  1 5
+4 7 2
+Tempo final: 90.021
+N·mero de movimentos: 11837
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 2
+5   6
+0 3 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 3 0
+4 6 1
+  7 2
+Tempo final: 90.003
+N·mero de movimentos: 11862
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+2 5
+6 0 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  5 4
+0 2 1
+6 7 3
+Tempo final: 90.006
+N·mero de movimentos: 11827
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 7
+1 4 2
+5   6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 1
+  7 2
+6 5 3
+Tempo final: 90.013
+N·mero de movimentos: 11790
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 0
+7 1 4
+  2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 3 0
+4   5
+2 7 1
+Tempo final: 90.011
+N·mero de movimentos: 11808
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+3 6 0
+4 7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 6 0
+  2 5
+3 4 1
+Tempo final: 90.01
+N·mero de movimentos: 11817
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 5
+  2 0
+3 6 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 0 1
+2 5 4
+3   6
+Tempo final: 90.01
+N·mero de movimentos: 11776
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4 7
+5   2
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 0 7
+3   1
+4 2 6
+Tempo final: 90.01
+N·mero de movimentos: 11892
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 1
+4 7 5
+  2 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 1 3
+2 0 6
+7 4
+Tempo final: 90.009
+N·mero de movimentos: 11916
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 3
+1 4 7
+2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 5
+  3 0
+6 2 7
+Tempo final: 90.013
+N·mero de movimentos: 12275
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   2
+6 0 3
+7 1 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 5 6
+  0 2
+1 4 7
+Tempo final: 90.001
+N·mero de movimentos: 12462
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4
+2 5 3
+6 0 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 4 6
+  0 3
+5 7 2
+Tempo final: 90.007
+N·mero de movimentos: 12453
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 1
+  2 5
+3 6 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 0 6
+  5 2
+1 3 7
+Tempo final: 90
+N·mero de movimentos: 12430
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 4
+7 1
+2 5 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 0 2
+1 5 4
+3   7
+Tempo final: 90.006
+N·mero de movimentos: 12452
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 6
+4 7 1
+5   2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 4 2
+6 3 0
+1   7
+Tempo final: 90.004
+N·mero de movimentos: 12458
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 5
+0 3 6
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 4
+1 5 3
+  6 2
+Tempo final: 90.019
+N·mero de movimentos: 12424
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 2
+5   6
+0 3 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7 1
+  6 3
+4 2 0
+Tempo final: 90.003
+N·mero de movimentos: 12459
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+2 5
+6 0 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 1
+  5 6
+2 3 4
+Tempo final: 90.005
+N·mero de movimentos: 12434
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 7
+1 4 2
+5   6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 1 6
+7 0 4
+2   3
+Tempo final: 90.008
+N·mero de movimentos: 12430
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 0
+7 1 4
+  2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 2 5
+3   4
+6 0 1
+Tempo final: 90.001
+N·mero de movimentos: 12420
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+3 6 0
+4 7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 4 0
+7 2 5
+3   6
+Tempo final: 90.012
+N·mero de movimentos: 12305
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+  2 5
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5 2
+6 0 7
+  4 3
+Tempo final: 90.006
+N·mero de movimentos: 12137
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 1
+4 7 5
+  2 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 1
+4   7
+6 2 5
+Tempo final: 90.009
+N·mero de movimentos: 12180
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 3
+1 4 7
+5   2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 4 1
+6 0 7
+5   3
+Tempo final: 90.013
+N·mero de movimentos: 12174
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 6
+0 3 1
+4 7 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  7 0
+5 3 1
+2 4 6
+Tempo final: 90.007
+N·mero de movimentos: 11978
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+6 0 3
+7 1 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 5 3
+1 4 7
+2   6
+Tempo final: 90
+N·mero de movimentos: 11923
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4 7
+2 5
+3 6 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7 4
+6   2
+3 1 0
+Tempo final: 90.019
+N·mero de movimentos: 11871
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 4
+7 1
+2 5 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 7 4
+5 0 3
+2 6
+Tempo final: 90.015
+N·mero de movimentos: 11785
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 6
+4 7 1
+  2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 5 1
+2   4
+6 0 7
+Tempo final: 90.003
+N·mero de movimentos: 12486
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5 0
+3 6 4
+7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 3
+5 0 4
+6   2
+Tempo final: 90.003
+N·mero de movimentos: 11989
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   2
+0 3 6
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 0 5
+6 4 2
+3   1
+Tempo final: 90.002
+N·mero de movimentos: 12388
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 1
+5   2
+6 0 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 0 3
+5 6 1
+  4 7
+Tempo final: 90.011
+N·mero de movimentos: 12624
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 7
+1 4 2
+5   6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 3 0
+2 1 5
+  6 7
+Tempo final: 90.012
+N·mero de movimentos: 12653
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 0
+7 1 4
+2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6   3
+1 2 0
+7 4 5
+Tempo final: 90.026
+N·mero de movimentos: 12635
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   3
+6 0 7
+1 4 2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 5 6
+1 7
+3 0 2
+Tempo final: 90.009
+N·mero de movimentos: 12648
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 5
+3 6 0
+4 7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+4 3 7
+5 6
+Tempo final: 90.016
+N·mero de movimentos: 12644
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+  2 5
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 6 1
+4   3
+7 0 2
+Tempo final: 90.009
+N·mero de movimentos: 12653
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 0
+4 7 1
+5   2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 4 3
+7 2 5
+1   0
+Tempo final: 90.007
+N·mero de movimentos: 12658
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 6
+0 3 1
+4 7 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5 2
+6 4 7
+0   3
+Tempo final: 90.011
+N·mero de movimentos: 12653
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+6 0 3
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 6 4
+5 2 1
+0   7
+Tempo final: 90.015
+N·mero de movimentos: 12641
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+4 7 2
+5   6
+0 3 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 4 1
+  0 2
+5 6 7
+Tempo final: 90.01
+N·mero de movimentos: 12639
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+2 5
+3 6 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 2 6
+1 7 3
+  5 0
+Tempo final: 90.009
+N·mero de movimentos: 12643
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+7 1 4
+  2 5
+0 3 6
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 4
+6 5 2
+3 7 0
+Tempo final: 90.013
+N·mero de movimentos: 12255
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+3 6 1
+4 7 5
+  2 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 0 1
+2 3
+6 5 7
+Tempo final: 90
+N·mero de movimentos: 12149
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 3
+1 4 7
+5   2
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 5 6
+4   7
+1 2 3
+Tempo final: 90.006
+N·mero de movimentos: 12621
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+  2 6
+0 3 1
+4 7 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7
+1 5 0
+2 4 6
+Tempo final: 90.036
+N·mero de movimentos: 11434
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5
+6 0 3
+7 1 4
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 3
+  7 5
+2 6 4
+Tempo final: 90.008
+N·mero de movimentos: 11821
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+1 4 7
+2 5
+3 6 0
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0   7
+2 6 5
+3 4 1
+Tempo final: 90.024
+N·mero de movimentos: 12206
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+6 0 4
+7 1
+2 5 3
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 4 0
+3   5
+6 1 7
+Tempo final: 90.002
+N·mero de movimentos: 12343
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+0 3 6
+4 7 1
+  2 5
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 4 1
+7   5
+2 6 0
+Tempo final: 90.009
+N·mero de movimentos: 12338
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+2 5 0
+3 6 4
+7 1
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1 3
+  0 4
+5 7 6
+Tempo final: 90.006
+N·mero de movimentos: 12357
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaProfundidade
+5   2
+0 3 6
+1 4 7
+Calculando...
+Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 7 5
+  6 0
+1 2 3
+Tempo final: 90.012
+N·mero de movimentos: 12670
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>ECHO Rodando Busca Gulosa H1
+Rodando Busca Gulosa H1
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>FOR /L %i IN (1 1 100) DO buscaGulosah1
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 1
+5   2
+6 0 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 3
+0 4 5
+6 1 7
+Tempo final: 90.014
+N·mero de movimentos: 790886
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 7 3
+0 4
+1 5 2
+Tempo final: 90.014
+N·mero de movimentos: 764965
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 0
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7 3
+1 4 0
+2 6
+Tempo final: 90.012
+N·mero de movimentos: 750523
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 3
+0 4 2
+1 5 7
+Tempo final: 90.002
+N·mero de movimentos: 739117
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 5
+3 6 0
+4 7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 7 1
+0 4 2
+3 5
+Tempo final: 90.011
+N·mero de movimentos: 747263
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 4
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 3
+2 4
+6 1 5
+Tempo final: 90.002
+N·mero de movimentos: 765517
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 0
+4 7 1
+5   2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 2
+3 4 5
+7 1
+Tempo final: 90
+N·mero de movimentos: 771430
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 6
+0 3 1
+4 7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+3 4 5
+6   7
+Tempo final: 90.012
+N·mero de movimentos: 772537
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 1
+0 4
+3 7 5
+Tempo final: 90.003
+N·mero de movimentos: 767549
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2   5
+1 4 3
+7 6 0
+Tempo final: 90.004
+N·mero de movimentos: 770925
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 4
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 0 2
+  1 4
+7 3 5
+Tempo final: 90.009
+N·mero de movimentos: 789935
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 3
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 0 1
+4   6
+3 7 2
+Tempo final: 90.008
+N·mero de movimentos: 752157
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0   2
+3 4 1
+6 7 5
+Tempo final: 90.011
+N·mero de movimentos: 768139
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 0 3
+  4 1
+6 7 5
+Tempo final: 90.001
+N·mero de movimentos: 771396
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 5
+  2 0
+3 6 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 3 0
+1 4 2
+5 7
+Tempo final: 90.001
+N·mero de movimentos: 763061
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4 7
+5   2
+6 0 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  0 3
+2 4 7
+6 1 5
+Tempo final: 90.006
+N·mero de movimentos: 763144
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 6
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 3 6
+2 7 1
+  5 4
+Tempo final: 90.002
+N·mero de movimentos: 748668
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 1 6
+  4 3
+7 2 0
+Tempo final: 90.008
+N·mero de movimentos: 761643
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 5
+6 4 3
+1 7 0
+Tempo final: 90.012
+N·mero de movimentos: 769629
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 6
+4 0 2
+5 3
+Tempo final: 90.004
+N·mero de movimentos: 793684
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 1
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  1 6
+2 4 3
+5 7 0
+Tempo final: 90.011
+N·mero de movimentos: 770451
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 0
+4 7 1
+5   2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 5 1
+0 4 7
+3 6
+Tempo final: 90.001
+N·mero de movimentos: 773131
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 6
+0 3 1
+4 7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 2
+3 4 1
+7   5
+Tempo final: 90.01
+N·mero de movimentos: 773941
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 2
+4   1
+6 7 5
+Tempo final: 90.012
+N·mero de movimentos: 773003
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 6 2
+7 4
+0 3 5
+Tempo final: 90.003
+N·mero de movimentos: 770810
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 4
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 0 2
+1 4 5
+7 3
+Tempo final: 90.002
+N·mero de movimentos: 790327
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 3
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 7
+1 4 3
+0 5
+Tempo final: 90.002
+N·mero de movimentos: 752039
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5
+3 6 0
+4 7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 6
+  4 7
+5 2 1
+Tempo final: 90
+N·mero de movimentos: 769189
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 5
+  2 0
+3 6 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 2
+3 4
+1 5 7
+Tempo final: 90.014
+N·mero de movimentos: 740754
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4 7
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 5
+0 4 3
+  2 6
+Tempo final: 90.008
+N·mero de movimentos: 774613
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 3
+2   5
+6 7 1
+Tempo final: 90.011
+N·mero de movimentos: 768933
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 3
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  1 6
+5 4 2
+7 3 0
+Tempo final: 90
+N·mero de movimentos: 770632
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   2
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  0 3
+2 4 1
+7 5 6
+Tempo final: 90.002
+N·mero de movimentos: 777780
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 6 0
+7 4 2
+  5 3
+Tempo final: 90.01
+N·mero de movimentos: 793763
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 2
+6 4 7
+  1 5
+Tempo final: 90.009
+N·mero de movimentos: 765317
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 1
+2 4 7
+  6 5
+Tempo final: 90.001
+N·mero de movimentos: 776998
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 6
+4 7 1
+5   2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  5 1
+7 4 6
+2 0 3
+Tempo final: 90.006
+N·mero de movimentos: 760941
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 5
+0 3 6
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5 7
+2 4 0
+3 6
+Tempo final: 90.006
+N·mero de movimentos: 774191
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 6
+0 4
+3 5 2
+Tempo final: 90.011
+N·mero de movimentos: 771510
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 4
+2 5
+6 0 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  2 5
+6 4 1
+0 3 7
+Tempo final: 90.01
+N·mero de movimentos: 770993
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 6 2
+7 4 5
+  0 1
+Tempo final: 90
+N·mero de movimentos: 743944
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 0
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1
+0 4 5
+3 6 7
+Tempo final: 90.003
+N·mero de movimentos: 773401
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5
+3 6 0
+4 7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 6 2
+7 4 5
+0 3
+Tempo final: 90.007
+N·mero de movimentos: 770957
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 5
+  2 0
+3 6 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 3 2
+0   4
+1 5 7
+Tempo final: 90.002
+N·mero de movimentos: 763486
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4 7
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 0
+6 4 7
+1 3 5
+Tempo final: 90.014
+N·mero de movimentos: 775057
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 0
+6 4 3
+1 5 7
+Tempo final: 90
+N·mero de movimentos: 770812
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 3
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  0 3
+2 4 1
+6 5 7
+Tempo final: 90.009
+N·mero de movimentos: 771456
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   2
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 5 2
+  7 4
+1 3 0
+Tempo final: 90.011
+N·mero de movimentos: 775238
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  0 2
+3 4 5
+6 7 1
+Tempo final: 90.015
+N·mero de movimentos: 769575
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 3 0
+5 4 1
+  7 6
+Tempo final: 90.001
+N·mero de movimentos: 780049
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 6
+4 7 1
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 2
+3 4 1
+7 5
+Tempo final: 90.008
+N·mero de movimentos: 772949
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 3 2
+6 0 1
+7 5
+Tempo final: 90.012
+N·mero de movimentos: 773186
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   2
+0 3 6
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  1 7
+5 4 3
+2 6 0
+Tempo final: 90.006
+N·mero de movimentos: 749937
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 1
+5   2
+6 0 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 3
+1 4 5
+  0 7
+Tempo final: 90
+N·mero de movimentos: 793511
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 5
+3 4 1
+7 0
+Tempo final: 90.005
+N·mero de movimentos: 763216
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 0
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 3 2
+6 0 1
+7 5
+Tempo final: 90.01
+N·mero de movimentos: 771739
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 1 0
+7 4
+2 3 6
+Tempo final: 90.012
+N·mero de movimentos: 762766
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 5
+3 6 0
+4 7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 7
+5 4 1
+2 6
+Tempo final: 90.014
+N·mero de movimentos: 771564
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 4
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 6 2
+5 4 0
+3 7
+Tempo final: 90.007
+N·mero de movimentos: 772270
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 5 1
+3 4 6
+  0 2
+Tempo final: 90.011
+N·mero de movimentos: 770230
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 3
+1 4 7
+5   2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 7 6
+5 4 3
+  2 0
+Tempo final: 90.001
+N·mero de movimentos: 770322
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 6
+0 3 1
+4 7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 2 1
+6 4 5
+0 7
+Tempo final: 90.007
+N·mero de movimentos: 773719
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1 2
+0 4 7
+5 6
+Tempo final: 90.008
+N·mero de movimentos: 777041
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 3 0
+1 4 6
+5 2
+Tempo final: 90.009
+N·mero de movimentos: 767234
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 3
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1
+6 4 2
+5 3 7
+Tempo final: 90.006
+N·mero de movimentos: 751603
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0   2
+3 6 1
+7 4 5
+Tempo final: 90.01
+N·mero de movimentos: 753116
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 3
+2   1
+6 7 5
+Tempo final: 90.002
+N·mero de movimentos: 770373
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 5
+  2 0
+3 6 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 1
+7 4 6
+2 0 3
+Tempo final: 90.001
+N·mero de movimentos: 763998
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4 7
+5   2
+6 0 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 7
+0 4 5
+2 6 1
+Tempo final: 90.015
+N·mero de movimentos: 772586
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 6
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 3 6
+5 4
+7 1 2
+Tempo final: 90.005
+N·mero de movimentos: 755163
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 2
+6 4 7
+  1 5
+Tempo final: 90.012
+N·mero de movimentos: 762951
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 0 6
+5 4 7
+2   1
+Tempo final: 90.012
+N·mero de movimentos: 772681
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0   2
+6 4 3
+1 7 5
+Tempo final: 90.01
+N·mero de movimentos: 791854
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 1
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1 6
+5 4
+7 0 3
+Tempo final: 90.005
+N·mero de movimentos: 771399
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 0
+4 7 1
+5   2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3   0
+6 4 2
+7 1 5
+Tempo final: 90.013
+N·mero de movimentos: 771978
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 6
+0 3 1
+4 7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7 3
+1 4 0
+2 6
+Tempo final: 90.013
+N·mero de movimentos: 773982
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7
+1 4 3
+2 6 0
+Tempo final: 90.007
+N·mero de movimentos: 771928
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 3 0
+2 4 7
+6 1
+Tempo final: 90.001
+N·mero de movimentos: 748829
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 4
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 1 6
+3 4 0
+  5 2
+Tempo final: 90.006
+N·mero de movimentos: 790306
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 3
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 7
+1 4 3
+  0 5
+Tempo final: 90.014
+N·mero de movimentos: 752698
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5
+2 4 7
+0 3 6
+Tempo final: 90.009
+N·mero de movimentos: 773853
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 7 1
+3 4 6
+  0 2
+Tempo final: 90
+N·mero de movimentos: 752435
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 5
+  2 0
+3 6 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 6
+  4 3
+5 7 2
+Tempo final: 90.007
+N·mero de movimentos: 758814
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4 7
+5   2
+6 0 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  5 6
+7 4 2
+1 3 0
+Tempo final: 90.001
+N·mero de movimentos: 772457
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 6
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5 2 7
+6 4 1
+3 0
+Tempo final: 90.004
+N·mero de movimentos: 750010
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   2
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+5   7
+6 4 2
+1 3 0
+Tempo final: 90.005
+N·mero de movimentos: 777580
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6   0
+7 4 1
+5 3 2
+Tempo final: 90.005
+N·mero de movimentos: 793055
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 3
+1 4 2
+  5 7
+Tempo final: 90.01
+N·mero de movimentos: 764515
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 7 5
+  4 6
+0 3 2
+Tempo final: 90.007
+N·mero de movimentos: 777335
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+0 3 6
+4 7 1
+5   2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  2 7
+0 4 5
+3 6 1
+Tempo final: 90.015
+N·mero de movimentos: 740762
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 5
+0 3 6
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+7 6 3
+  4 0
+5 1 2
+Tempo final: 90
+N·mero de movimentos: 772468
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  3 2
+6 0 4
+1 5 7
+Tempo final: 90.012
+N·mero de movimentos: 763363
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 1
+  4 6
+3 5 2
+Tempo final: 90.012
+N·mero de movimentos: 772209
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 6 2
+0 4 3
+7   5
+Tempo final: 90
+N·mero de movimentos: 794088
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 1
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1 6
+5 4 3
+  7 0
+Tempo final: 90.001
+N·mero de movimentos: 771721
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+3 6 0
+4 7 1
+5   2
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 5 1
+3 4 7
+6   0
+Tempo final: 90.007
+N·mero de movimentos: 772344
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+  2 6
+0 3 1
+4 7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 1 5
+0 4 7
+  3 6
+Tempo final: 90.001
+N·mero de movimentos: 772856
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+2 5
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 3 2
+0 4 1
+7 5
+Tempo final: 90.004
+N·mero de movimentos: 772289
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  1 6
+7 4 2
+0 3 5
+Tempo final: 90.002
+N·mero de movimentos: 772152
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah1
+7 1 4
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+  3 7
+5 4 1
+2 0 6
+Tempo final: 90.01
+N·mero de movimentos: 790290
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>ECHO Rodando Busca Gulosa H2
+Rodando Busca Gulosa H2
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>FOR /L %i IN (1 1 100) DO buscaGulosah2
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+6 4 5
+3   7
+Tempo final: 90.013
+N·mero de movimentos: 370156
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+4 5 7
+3   6
+Tempo final: 90.015
+N·mero de movimentos: 366670
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.116
+N·mero de movimentos: 409
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 0
+3 6 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+3 4 5
+6 7
+Tempo final: 90.012
+N·mero de movimentos: 369878
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 5
+6 4 1
+  3 7
+Tempo final: 90.011
+N·mero de movimentos: 364484
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+4 7 3
+0 6
+Tempo final: 90.004
+N·mero de movimentos: 370775
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+1 4 7
+5   2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.138
+N·mero de movimentos: 919
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 6 0
+3 1 4
+7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+5 4 6
+  3 7
+Tempo final: 90.002
+N·mero de movimentos: 368688
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   2
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.369
+N·mero de movimentos: 1399
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+7 1 5
+  2 6
+0 3 4
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0
+N·mero de movimentos: 75
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+4 3
+6 7 5
+Tempo final: 90.006
+N·mero de movimentos: 367409
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+4 6 7
+5   3
+Tempo final: 90.008
+N·mero de movimentos: 370889
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+4 7
+0 6 3
+Tempo final: 90.012
+N·mero de movimentos: 369549
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.238
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+4   7
+0 6 3
+Tempo final: 90.009
+N·mero de movimentos: 371196
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.316
+N·mero de movimentos: 1657
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.184
+N·mero de movimentos: 1145
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+  4 5
+3 6 7
+Tempo final: 90.009
+N·mero de movimentos: 364397
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.232
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+3 4 5
+6 7
+Tempo final: 90
+N·mero de movimentos: 370516
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.32
+N·mero de movimentos: 1657
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.181
+N·mero de movimentos: 1145
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+4 5 7
+  3 6
+Tempo final: 90.013
+N·mero de movimentos: 370502
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.246
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+  4 6
+5 3 7
+Tempo final: 90.01
+N·mero de movimentos: 359727
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+6 3 5
+4   7
+Tempo final: 90.001
+N·mero de movimentos: 370869
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.116
+N·mero de movimentos: 851
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+0 3 7
+1 4
+2 5 6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.184
+N·mero de movimentos: 1149
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 7 3
+4 5
+Tempo final: 90.011
+N·mero de movimentos: 370320
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.237
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+7 3 5
+6   4
+Tempo final: 90.004
+N·mero de movimentos: 370872
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 5 4
+3 7
+Tempo final: 90
+N·mero de movimentos: 371462
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.233
+N·mero de movimentos: 1133
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.1
+N·mero de movimentos: 397
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 0
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+5   4
+3 7 6
+Tempo final: 90.008
+N·mero de movimentos: 365690
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+  5 4
+6 3 7
+Tempo final: 90.015
+N·mero de movimentos: 369499
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.1
+N·mero de movimentos: 409
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 0
+3 6 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+5 4 6
+3   7
+Tempo final: 90.003
+N·mero de movimentos: 370665
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 2
+3 5 6
+0 7
+Tempo final: 90
+N·mero de movimentos: 367502
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+5 4 7
+6   3
+Tempo final: 90.007
+N·mero de movimentos: 369563
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+1 4 7
+5   2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.147
+N·mero de movimentos: 919
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 6 0
+3 1 4
+7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+4 5
+3 6 7
+Tempo final: 90
+N·mero de movimentos: 370353
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   2
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.369
+N·mero de movimentos: 1399
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+7 1 5
+  2 6
+0 3 4
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0
+N·mero de movimentos: 75
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 7 3
+4   5
+Tempo final: 90.01
+N·mero de movimentos: 364721
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+3 4
+7 6 5
+Tempo final: 90.006
+N·mero de movimentos: 370010
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+3   4
+7 6 5
+Tempo final: 90.014
+N·mero de movimentos: 370146
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.238
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 7 3
+4 5
+Tempo final: 90.002
+N·mero de movimentos: 370608
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.338
+N·mero de movimentos: 1657
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.185
+N·mero de movimentos: 1145
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+4 7 3
+0   6
+Tempo final: 90.014
+N·mero de movimentos: 370911
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.232
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 2
+3 1
+6 7 5
+Tempo final: 90.007
+N·mero de movimentos: 370041
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 2
+3 1
+6 7 5
+Tempo final: 90.007
+N·mero de movimentos: 370315
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.116
+N·mero de movimentos: 851
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+0 3 7
+1 4
+2 5 6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.184
+N·mero de movimentos: 1149
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+3 5 4
+7   6
+Tempo final: 90.013
+N·mero de movimentos: 370273
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.232
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+7 6 3
+5 4
+Tempo final: 90.003
+N·mero de movimentos: 371127
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 2
+6 1 5
+3   4
+Tempo final: 90.004
+N·mero de movimentos: 329603
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.279
+N·mero de movimentos: 1133
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.116
+N·mero de movimentos: 397
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 0
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+0 4 7
+  6 3
+Tempo final: 90.012
+N·mero de movimentos: 365288
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+5 4
+3 7 6
+Tempo final: 90.012
+N·mero de movimentos: 370389
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.1
+N·mero de movimentos: 409
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 0
+3 6 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 7 3
+4 5
+Tempo final: 90
+N·mero de movimentos: 366323
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+6 4 5
+3   7
+Tempo final: 90.007
+N·mero de movimentos: 367469
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+  3 5
+6 4 7
+Tempo final: 90.009
+N·mero de movimentos: 370411
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+1 4 7
+5   2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.154
+N·mero de movimentos: 919
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 6 0
+3 1 4
+7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+6   3
+7 4 5
+Tempo final: 90.008
+N·mero de movimentos: 369983
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   2
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.394
+N·mero de movimentos: 1399
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+7 1 5
+  2 6
+0 3 4
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0
+N·mero de movimentos: 75
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+  4 6
+5 3 7
+Tempo final: 90.004
+N·mero de movimentos: 367599
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+6 7 3
+4 5
+Tempo final: 90.003
+N·mero de movimentos: 370477
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 2
+1 5 4
+6 3
+Tempo final: 90.005
+N·mero de movimentos: 370042
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.232
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+3 4 5
+  6 7
+Tempo final: 90.012
+N·mero de movimentos: 370512
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.332
+N·mero de movimentos: 1657
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.185
+N·mero de movimentos: 1145
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+3 4 5
+7 6
+Tempo final: 90.007
+N·mero de movimentos: 370868
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.232
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+5 4
+3 7 6
+Tempo final: 90.011
+N·mero de movimentos: 370869
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 5
+4   1
+6 3 7
+Tempo final: 90.009
+N·mero de movimentos: 370410
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.122
+N·mero de movimentos: 851
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+0 3 7
+1 4
+2 5 6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.184
+N·mero de movimentos: 1149
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 7 3
+4   5
+Tempo final: 90.005
+N·mero de movimentos: 367343
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.263
+N·mero de movimentos: 1229
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+3   7
+6 5 4
+Tempo final: 90
+N·mero de movimentos: 348278
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+6 3
+7 4 5
+Tempo final: 90
+N·mero de movimentos: 304924
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.288
+N·mero de movimentos: 1133
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.134
+N·mero de movimentos: 397
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 0
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 3 5
+4 7
+Tempo final: 90
+N·mero de movimentos: 305665
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 7 3
+4 5
+Tempo final: 90
+N·mero de movimentos: 328632
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.143
+N·mero de movimentos: 409
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+1 4
+2 5 0
+3 6 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+3 4 5
+7 6
+Tempo final: 90
+N·mero de movimentos: 295538
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+5 4 6
+3   7
+Tempo final: 90
+N·mero de movimentos: 330039
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+5 4 6
+3 7
+Tempo final: 90
+N·mero de movimentos: 315118
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+6 0 3
+1 4 7
+5   2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.187
+N·mero de movimentos: 919
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah2
+2 6 0
+3 1 4
+7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+3 5 4
+7 6
+Tempo final: 90
+N·mero de movimentos: 346833
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>ECHO Rodando Busca Gulosa H3
+Rodando Busca Gulosa H3
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>FOR /L %i IN (1 1 100) DO buscaGulosah3
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 4 2
+3 1 5
+0   7
+Tempo final: 90
+N·mero de movimentos: 143113
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 3
+6 7 5
+4 1
+Tempo final: 90
+N·mero de movimentos: 130828
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+7 1 4
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.101
+N·mero de movimentos: 369
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.033
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 2
+6   1
+4 5 3
+Tempo final: 90
+N·mero de movimentos: 105474
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.052
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+  4 6
+3 7 5
+Tempo final: 90.002
+N·mero de movimentos: 98301
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.254
+N·mero de movimentos: 631
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.045
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 1 2
+3 4 0
+  7 5
+Tempo final: 90
+N·mero de movimentos: 92632
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.057
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+3 4 7
+  0 6
+Tempo final: 90
+N·mero de movimentos: 95011
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 4
+3 5 1
+6   7
+Tempo final: 90
+N·mero de movimentos: 104006
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 2 1
+3 5
+6 0 7
+Tempo final: 90
+N·mero de movimentos: 148509
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.032
+N·mero de movimentos: 208
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 0
+4 7 1
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 2
+4 3
+1 6 5
+Tempo final: 90
+N·mero de movimentos: 130724
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+3 4 7
+0   6
+Tempo final: 90
+N·mero de movimentos: 101332
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.012
+N·mero de movimentos: 111
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 5
+2 0 3
+6 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+6 4 5
+3   7
+Tempo final: 90
+N·mero de movimentos: 92738
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2
+6 1 4
+3 7 5
+Tempo final: 90
+N·mero de movimentos: 117022
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 1 2
+3 4 6
+5 7
+Tempo final: 90
+N·mero de movimentos: 93501
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 5
+6 4 1
+3 7
+Tempo final: 90
+N·mero de movimentos: 93864
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.023
+N·mero de movimentos: 122
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 7
+4 0 6
+  3 5
+Tempo final: 90
+N·mero de movimentos: 113710
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.274
+N·mero de movimentos: 631
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.035
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2   1
+6 4 3
+0 7 5
+Tempo final: 90.002
+N·mero de movimentos: 98690
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.042
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 2
+6 3
+4 1 5
+Tempo final: 90.002
+N·mero de movimentos: 102581
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 2
+5   3
+6 0 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 4
+3 6 5
+1 7
+Tempo final: 90
+N·mero de movimentos: 104273
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+7 1 4
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.01
+N·mero de movimentos: 104
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.029
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 1 2
+7 4 0
+5 3
+Tempo final: 90
+N·mero de movimentos: 105871
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.036
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 2
+3 5 6
+0 7
+Tempo final: 90
+N·mero de movimentos: 108688
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 5
+1 4 7
+3   6
+Tempo final: 90
+N·mero de movimentos: 105422
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1 2
+0 7
+4 5 6
+Tempo final: 90
+N·mero de movimentos: 165187
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.033
+N·mero de movimentos: 208
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 0
+4 7 1
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 2
+  3 1
+5 6 7
+Tempo final: 90
+N·mero de movimentos: 123689
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 7 1
+6 0 3
+4   5
+Tempo final: 90
+N·mero de movimentos: 112467
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+0 3 6
+1 4 7
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.175
+N·mero de movimentos: 518
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+7 1 5
+  2 0
+3 6 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+3 7
+4 5 6
+Tempo final: 90
+N·mero de movimentos: 166188
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4 7
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 3
+1 6 5
+7 2
+Tempo final: 90
+N·mero de movimentos: 110920
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5 2
+  4 7
+3 6 0
+Tempo final: 90
+N·mero de movimentos: 109068
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1 2
+0 7 4
+6 5
+Tempo final: 90
+N·mero de movimentos: 112235
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.037
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 2
+6 7 3
+0 5
+Tempo final: 90.001
+N·mero de movimentos: 114589
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.254
+N·mero de movimentos: 631
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+2 5
+6 1 4
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.008
+N·mero de movimentos: 86
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4   2
+5 3 6
+0 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.354
+N·mero de movimentos: 684
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.244
+N·mero de movimentos: 631
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.028
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 2
+1 4
+6 5 3
+Tempo final: 90
+N·mero de movimentos: 113364
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.036
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 7 2
+1 3 5
+6 4
+Tempo final: 90
+N·mero de movimentos: 111575
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.309
+N·mero de movimentos: 631
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.033
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 2 5
+4 7
+0 6 3
+Tempo final: 90.001
+N·mero de movimentos: 112938
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.045
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5
+6 4 2
+0 3 7
+Tempo final: 90.001
+N·mero de movimentos: 114640
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 1
+4 5 3
+6   7
+Tempo final: 90
+N·mero de movimentos: 115995
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 1
+  2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 0 2
+6 4 5
+3 7
+Tempo final: 90
+N·mero de movimentos: 172019
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.034
+N·mero de movimentos: 208
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 0
+4 7 1
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 1 2
+0 5 4
+3 7
+Tempo final: 90
+N·mero de movimentos: 144067
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 7 1
+4 6 0
+5   3
+Tempo final: 90
+N·mero de movimentos: 115904
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.011
+N·mero de movimentos: 111
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 5
+2 0 3
+6 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 6 2
+1 3 5
+  4 7
+Tempo final: 90
+N·mero de movimentos: 116640
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5 2
+4 0 6
+3   7
+Tempo final: 90.001
+N·mero de movimentos: 144305
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 2
+  3 5
+6 1 7
+Tempo final: 90
+N·mero de movimentos: 116340
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+1 4 7
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+1 5 2
+4 0 6
+3 7
+Tempo final: 90
+N·mero de movimentos: 117385
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.012
+N·mero de movimentos: 122
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 5
+  4 7
+1 3 6
+Tempo final: 90
+N·mero de movimentos: 141117
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+7 1 4
+2 5
+6 0 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.041
+N·mero de movimentos: 238
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 7 1
+4 2 5
+  6 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0   2
+3 4 1
+6 7 5
+Tempo final: 90
+N·mero de movimentos: 143653
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 2 4
+0 5 1
+3 7
+Tempo final: 90
+N·mero de movimentos: 116252
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.035
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+3 6 0
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 4
+1 3 7
+  5 6
+Tempo final: 90
+N·mero de movimentos: 116296
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4
+2 5 3
+6 0 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0   2
+6 1 4
+3 7 5
+Tempo final: 90.001
+N·mero de movimentos: 116210
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 1
+  2 5
+0 3 6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.108
+N·mero de movimentos: 497
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 4
+7 1
+2 5 3
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.032
+N·mero de movimentos: 208
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 0
+7 1 4
+  2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+2 7 0
+4 6 3
+5 1
+Tempo final: 90
+N·mero de movimentos: 117121
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5 0
+3 6 4
+7 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 4
+6 3 5
+  7 1
+Tempo final: 90
+N·mero de movimentos: 117304
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+0 3 6
+4 7 1
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.011
+N·mero de movimentos: 111
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4
+2 5 0
+3 6 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 2
+3   1
+6 7 5
+Tempo final: 90
+N·mero de movimentos: 115677
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 1
+5   2
+0 3 6
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 4 2
+6 1 7
+3   5
+Tempo final: 90
+N·mero de movimentos: 114341
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+3 6 1
+4 7 5
+  2 0
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 2 7
+  4 0
+6 5 1
+Tempo final: 90
+N·mero de movimentos: 104737
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+1 4 7
+5   2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.004
+N·mero de movimentos: 62
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 6 0
+3 1 4
+7 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 5
+0 4 2
+6 1 7
+Tempo final: 90
+N·mero de movimentos: 115696
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   2
+6 0 3
+1 4 7
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 1 2
+0   6
+4 7 5
+Tempo final: 90.001
+N·mero de movimentos: 168511
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+4 7 2
+5   6
+0 3 1
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+0 2 3
+5 4 1
+6   7
+Tempo final: 90.001
+N·mero de movimentos: 141213
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+7 1 4
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.094
+N·mero de movimentos: 369
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.026
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+3 5 2
+0 4 7
+6   1
+Tempo final: 90
+N·mero de movimentos: 115733
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.035
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 2
+6 5
+0 3 7
+Tempo final: 90
+N·mero de movimentos: 114597
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+1 4 7
+2 5
+3 6 0
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.24
+N·mero de movimentos: 631
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+0 3 7
+1 4 2
+5   6
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.028
+N·mero de movimentos: 185
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+6 0 3
+7 1 4
+2 5
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+4 1 2
+3 5 6
+0 7
+Tempo final: 90
+N·mero de movimentos: 114430
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+5   3
+6 0 7
+1 4 2
+
+Calculando ...Algorimo terminou:
+Solucao encontrada!
+Matriz final:
+0 1 2
+3 4 5
+6 7
+Tempo final: 0.037
+N·mero de movimentos: 217
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>buscaGulosah3
+2 5
+6 0 3
+7 1 4
+
+Calculando ...Algorimo terminou:
+O algoritmo nao encontrou solucao.
+Matriz final:
+6 0 2
+3 4 5
+7 1
+Tempo final: 90
+N·mero de movimentos: 114423
+
+
+C:\Users\moeda\Documents\FaculdadeArquivos\IA\relatorio>

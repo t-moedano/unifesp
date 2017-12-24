@@ -1,0 +1,5 @@
+Strategy atua de modo que seja possível alterar as estratégias (estrutura do objeto) para resolver um problema. Essa escolha pode ficar a cargo do lado do cliente.
+
+State a estrutura muda automaticamente de acordo com a situação. Dependendo de como o cliente está, o estado muda.
+
+Command encapsula diferentes estados / operações de um objeto ao contrário de strategy que a implementação é exposta e o state que o cliente não altera as mudanças por si só. 

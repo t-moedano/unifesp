@@ -1,0 +1,158 @@
+a.) Liste o título de todos os artigos publicados na 
+sessão "Interoperabilidade" 
+em ordem alfabética
+
+SELECT Artigo.Titulo
+FROM Artigo, Sessao
+WHERE Artigo.CodSes = Sessao.CodSes AND Sessao.DenoSes =  "Interoperabilidade"
+ORDER BY Artigo.Titulo
+
+Titulo
+Acesso Integrado a Bancos de Dados Distribuidos Heterogêneos utilizando CORBA
+Especificacao de Mediadores para Acesso e Atualizacao de Multiplas Bases de Dados
+Interoperabilidade em um Sistema de Bancos de Dados Heterogêneos
+
+b.)
+Liste o título de todos os artigos publicados por pesquisadores da 
+"Universidade Federal de Minas Gerais" seguido do nome dos pesquisadores 
+em ordem alfabética de título 
+
+SELECT Artigo.Titulo, Autor.NomeAutor
+FROM Artigo, Autoria, Autor, Instituicao
+WHERE Autor.CodAutor = Autoria.CodAutor AND Artigo.CodArt = Autoria.CodArt AND Autor.CodInst = Instituicao.CodInst AND Instituicao.NomeInst = "Universidade Federal de Minas Gerais" 
+
+Titulo 	NomeAutor
+Uma Interface Baseada em Campos Estelares para Bases de Dados Textuais 	R.O.R. Antunes
+
+Uma Interface Baseada em Campos Estelares para Bases de Dados Textuais 	G.C.G. Mendonca
+
+Uma Interface Baseada em Campos Estelares para Bases de Dados Textuais 	B.A. Ribeiro-Neto
+
+Ordenacao de Respostas Aproximadas Baseada no Modelo Autoclass II 	B.A. Ribeiro-Neto
+
+Ordenacao de Respostas Aproximadas Baseada no Modelo Autoclass II 	G.T. de Assis
+
+Projeto/Reprojeto de Bancos de Dados Relacionais: A Ferramenta DB-Tool 	A.A. Ferreira
+
+Projeto/Reprojeto de Bancos de Dados Relacionais: A Ferramenta DB-Tool 	A.H.F. Laender
+
+Um Modelo para Recuperacao de Informacao Especializada Aplicado a Bases de Dados Médicas Semi-Estruturadas 	B.A. Ribeiro-Neto
+
+Um Modelo para Recuperacao de Informacao Especializada Aplicado a Bases de Dados Médicas Semi-Estruturadas 	A.H.F. Laender
+
+Um Modelo para Recuperacao de Informacao Especializada Aplicado a Bases de Dados Médicas Semi-Estruturadas 	L.R.S. de Lima
+
+c.) Liste o nome dos autores e a quantidade total de
+ artigos que cada um 
+publicou no SBBD. Os autores devem ser ordenados de
+crescentemente pela 
+quantidade total de artigos publicados. As colunas 
+do resultado devem ser 
+
+SELECT Autor.NomeAutor, COUNT(Artigo.CodArt)
+FROM Autor, Autoria, Artigo
+WHERE Autoria.CodArt = Artigo.CodArt AND Autor.CodAutor = Autoria.CodAutor
+GROUP BY Autor.NomeAutor
+ORDER BY COUNT(Artigo.CodArt)
+
+NomeAutor 	COUNT(Artigo.CodArt)
+L.R.S. de Lima 	1
+C.A. Heuser 	1
+L. Popa 	1
+C.H.F.P. Robeiro 	1
+G.C.G. Mendonca 	1
+F.A. Baiao 	1
+L.M.V. Cura 	1
+T.S. Brugger 	1
+F.M. da Cruz Filho 	1
+G.T. de Assis 	1
+V.M.P. Vidal 	1
+R.G. Scarinci 	1
+P.F. Pires 	1
+L.A.V.C. Meyer 	1
+M.T. Cespedes 	1
+E.M.A. Uchoa 	1
+G. Xexeo 	1
+C.M.B. Medeiros 	1
+F.O. Tavares 	1
+C.G. Webber 	1
+A.S. da Silva 	1
+S.B. Davidson 	1
+B.F. Loscio 	1
+E. Bezerra 	1
+G.M.A. Lima 	1
+F.F. de Souza 	1
+J.M. de Souza 	1
+S. Lifschitz 	1
+S.N. Ferreira 	1
+M.C. Sampaio 	1
+A.R. Hadaegh 	1
+M. Duran 	1
+J.M.V. de Castilho 	1
+A.J.B. Martins 	1
+C. Hara 	1
+J.C.D. Lima 	1
+R.O.R. Antunes 	1
+J.A. Soares 	1
+M.B.F. de Toledo 	1
+R.C. Mauro 	1
+A.M.L. Vasconcelos 	1
+A.A. Ferreira 	1
+R.N.Melo 	1
+K. Becker 	1
+C.A. Nascimento 	1
+K. Baker 	1
+A.A.B. Lima 	1
+A.H.F. Laender 	2
+G. Zimbrao 	2
+J.P.M. Oliveira 	2
+M.L.Q. Mattoso 	2
+B.A. Ribeiro-Neto 	3
+
+d.) Liste o número total de artigos publicados na se
+ssão de "Processamento de 
+Consultas" ou na sessão de "Transacoes e Versoes". 
+
+SELECT COUNT(Artigo.CodArt)
+FROM Artigo, Sessao
+WHERE Artigo.CodSes = Sessao.CodSes AND (Sessao.DenoSes = "Processamento de 
+Consultas" OR Sessao.DenoSes = "Transacoes e Versoes")
+
+COUNT(Artigo.CodArt)
+3
+
+e.)  Liste o número de autores de cada artigo por ins
+tituição.  
+
+SELECT COUNT(Autor.CodAutor)
+FROM Autor, Autoria, Artigo, Instituicao
+WHERE Autor.CodAutor = Autoria.CodAutor AND Autoria.CodArt = Artigo.CodArt AND Autor.CodInst = Instituicao.CodInst
+GROUP BY Instituicao.CodInst
+
+COUNT(Autor.CodAutor)
+1
+3
+2
+9
+10
+2
+3
+16
+1
+4
+2
+2
+3
+
+
+f.)
+
+SELECT Autor.NomeAutor, COUNT(Artigo.CodArt)
+FROM Autor, Artigo, Autoria
+WHERE Autoria.CodAutor = Autor.CodAutor AND Autoria.CodArt = Artigo.CodArt
+GROUP BY Autor.NomeAutor
+ORDER BY COUNT(Artigo.CodArt) DESC
+LIMIT 1
+
+NomeAutor 	COUNT(Artigo.CodArt)
+B.A. Ribeiro-Neto 	3

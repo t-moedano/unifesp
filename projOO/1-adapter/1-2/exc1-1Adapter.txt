@@ -1,0 +1,1 @@
+O class adapter foi escolhido neste caso porque Shape é uma interface. 

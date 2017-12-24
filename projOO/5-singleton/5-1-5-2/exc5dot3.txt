@@ -1,0 +1,8 @@
+Exercício 5.3: 
+
+Math é um singleton pois seu construtor é privado, evitando a criação
+de novas instâncias.
+
+PrintStream não é Singleton pois o acesso a sua instancia é public.
+
+Das duas restantes, acredito que ambas deveriam ser singleton pois uma é um gerenciador, um ponto central das funções de impressão (PrintManager) e a outra controlaria o acesso à fila de impressão (PrintSpooler);

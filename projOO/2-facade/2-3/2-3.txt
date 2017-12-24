@@ -1,0 +1,1 @@
+Adapter e Facade podem interagir com uma ou mais classes mas possuem intenções diferentes, independe do número de classes.
