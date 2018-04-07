@@ -1,0 +1,86 @@
+Threads
+
+Processo: o sistema operacional cria um processador virtual.
+Cada processador tem uma tabela de processo que armazena informações 
+da CPU, memória, arquivos, etc. Tudo isso se chama contexto
+
+Um processo é definido como um programa em execução em um desses 
+processadores.
+-> Issue: processos rodando ao mesmo tempo. O SO tem que garantir que 
+os processos sejam independentes entre si. 
+
+Diferentente de processos, as threads buscam armazenar o mínimo de informação
+possível pra aumentar a concorrência -> CPU conseguir compartilhar o maior 
+numero de threads possível. 
+
+Desafios -> Desenvolver um sistema multi thread pois threads nao são 
+protegidas e podem causar problema de concorrência.
+
+Vantagens -> Distribuir execuções entre as threads (prevenir que processos 
+fiquem bloqueados). Além disso facilita a troca de contexto.
+
+* Implementação 
+	-> Operações de criar/destruir threads.
+	-> Duas formas: usar uma library ou distribuir a função para o kernel 
+	
+* Modelos
+
+-> Many-To-One: muitas threads sao mapeadas para uma unica entidade. Entretanto, um bloqueio ira travar todo o processo. (user level)
+
+-> One-To-One: Cada thread é uma entidade. Cada operação necessita de uma chamada do sistema -> aumento no custo de troca de contexto.  (kernel level)
+
+-> Many-To-Many: LWP (?) 
+
+Vantagem de processos sobre thread: o processo reserva os dados para si. Grande desafio de se programar com threads: é de total responsabilidade do desenvolver garantir que as threads vao compartilhar o espaço corretamente.
+
+* Threads em sistemas distribuidos 
+
+-> Client multi thread 
+	Exemplo: sistema web -> ir disponibilizando os dados na medida que sao
+	carregados. 
+
+-> Server multi thread 
+	Exemplo: cada thread para gerenciar um request vindo do lado do cliente 
+
+	* Modelos 
+	- Multi thread -> paralelismo, bloqueia chamadas do sistema 
+	- Single-thread -> sem paralelismo, bloqueia chamada do sistema 
+	- Maquina de estado finitos -> paralelismo, nao bloqueia chamadas 
+
+* Virtualização 
+
+	-> Troca de contextos podem ocorrer muito rapidamente em uma CPU, gerando a impressão que existe um sistema paralelo. A separação de ter uma única CPU e parecer que existe mais pode ser extendida a outros tipos de recurso: virtualização. 
+	
+	* Principios
+	-> Virtualização trata de extender ou trocar interfaces existentes para parecer que existe mais de um sistema, se comportar como diferentes sistemas. 
+	
+	Vantagens 
+	- Fazer o porting de sistemas legados (tratar as interfaces legado em novas plataformas) 
+	- Escalabilidade: plataformas rodando seus próprios programas em suas máquinas virtuais ao mesmo tempo que se conectam em uma plataforma comum
+	
+	* Tipos de Virtualização 
+	
+	Para entender os tipos, é necessario entender as interfaces de um sistema computacional 
+	
+	1 - Interface entre o hardware e o software (conjunto de instruções - privilegiados e gerais)
+	2 - Interface de chamadas do sistema 
+	3 - Interface consistindo de chamadas de libraries -> APIs 
+	
+	Virtualização imita o comportamento dessas interfaces 
+	
+* Tipos 
+
+	* Process Virtual Machine: emular uma aplicação. A virtualização ocorre na chamada do sistema. Exemplo: rodar uma aplicação windows no unix. 
+	
+	* Native Virtual Machine Monitor: Fornecer o conjunto de instruções como uma interface. Pode ter vários sistemas operacionais rodando na mesma plataforma. 
+	
+	* Hosted Virtual Machine Monitor: Além de fornecer o conjunto de instruções como interface, tudo roda sob um sistema operacional que funciona como host. Nesse caso, a máquina virtual pode usar recursos do host. 
+	
+* Aplicação para Sistemas Distribuidos 
+
+* Infra como Serviço: prove infra estrutura 
+* Plataforma como Service: prove serviços a nivel do sistema 
+* Software como serviço: prove as aplicações 
+
+-> Principal: infra-estutura -> arquitetura em nuvem. Exemplo: Elastic Cloud
+	-> O usuario pode criar diversas maquinas virtuais configuradas com os recursos necessarios e capazes de se comunicar na rede. 

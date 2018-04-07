@@ -1,0 +1,16 @@
+DISTRIBUTED HASH TABLE
+
+-> Representação clássica: um identificador de m-bits assinado randomicamente a uma chave para identifica-lo. Geralmente
+os bits são 128 ou 160, dependendo da função. Uma chave K fica sob um nó com os menor id >= K.
+
+
+Abordagem distribuída: Cada nó tem uma " finger table " contendo s <= m entradas. Então por exemplo, se o
+identificador de bits é 128, cada nó precisa ter um número de entradas <= 128. 
+
+Fórmula: FT[i] = succ(p + 2^(i-1))   [nao entendirrrrr]
+
+-> nao entendi como ele constrói essa tabela
+
+-> roteamento... inicia no nó 1. Escolhe o nó 18 porque é o mais perto de 26? O que define os números da esquerda? 
+
+Resumo dehoje: nao entendi nada

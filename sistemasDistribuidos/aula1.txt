@@ -1,0 +1,322 @@
+TERÇA-FEIRA
+7/3/2018
+Você criou o grupo “SD - Airugly”
+As mensagens que você enviar para este grupo são protegidas com criptografia de ponta-a-ponta. Clique para mais informações.
+Ai n sei quem eh o resto
+08:19
+Dani Crazy
+Que nome.
+09:03
+Eu ia por arlixo kkk
+09:12
+8/3/2018
+Dani Crazy alterou a imagem deste grupo
+Dani Crazy
+Pronto.
+22:38
+Kkkkkkkkk
+22:38
+Japa
+KKKKKK
+22:38
+9/3/2018
+Gente vcs tem as outras pessoas pra add ?
+06:39
+Japa
+nop :I
+09:15
+Gente alguem leu o capitulo 2? Kk
+07:22
+architectural style -> componentes, como são conectados uns aos outros, dados trocados entre arquiteturas. 
+
+componente -> unidade modular bem definida que provê interfaces que podem ser 
+substituidas enquanto o sistema continua funcionando.
+
+connector -> mecanismo que intermedia a comunicação entre componentes (streaming, calls, rede, etc) 
+
+Como os componentes e conectores são distribuidos definem o modelo de arquitetura:
+
+-> Em camadas
+-> Orientada a Objeto
+-> ' Resource-based'  (orientada a recurso?)
+-> Orientada a evento
+
+* Camadas: um componente fica embaixo do outro.. Pode ter pequenas camadas intermediarias
+	- Comunicação, serviços e interfaces são diferentes (pq ?)
+Exemplo: serviço de busca na internet 
+	layer 1: interface do usuario
+	layer 2: gerador de queries / HTML  (nivel de processamento) 
+	layer 3: acesso ao DB
+
+* Orientada a objeto: cada objeto corresponde a um componente. Encapsula o dados, 
+provê um 'proxy' de acesso ao cliente.  - Cliente-Servidor 
+	- O objeto em si, seu estado é não distribuído. Somente as interfaces 
+	estão disponiveis em outras máquinas. A distribuição fica escondida
+	do cliente 
+
+	- Separando os serviços, temos SOA: Arquitetura orientada a serviço
+
+
+* Orientada a recurso: distribuir o sistema em uma coleção de recursos. Exemplo: REST.
+	- PUT: cria um recurso
+	- GET: pega o estado do recurso 
+ 	- DELETE: deleta o recurso 
+	- POST: modifica o recurso 
+Exemplo: Amazon S3
+
+* Publish-subscribe 
+	-> processar e comunicar (coordenar)
+	-> referencialmente acoplado/desacoplado  (precisa conhecer o outro ou não)
+	-> temporalmente acoplado/desacoplado (precisa ser ao mesmo tempo ou não)
+	-> tipos: direto, mailbox, orientado a evento, espaço de dados compartilhado
+
+Exemplos:
+	-> direto: telefones
+	-> mailbox: não precisa se comunicar ao mesmo tempo 
+	-> orientado a evento: inscrição no youtube (você se inscreve e recebe uma 
+		notificação de evento para aqueles que se inscreveram) 
+		(referencialmente acoplado, temporalmente desacoplado)
+	-> espaço compartilhado: notifica grupos e filtra informação por palavras chave
+
+- Middleware: dividido em wrapper e interceptors
+
+	* Wrappers: Componente que oferece uma interface para a aplicação do cliente, 
+	resolvendo problemas de incompatibilidade. 
+	
+	* Interceptors: Software que vai quebrar um fluxo atual a ser executado.
+
+	* Middlware modificavel: necessidade de alterar wrappers e interceptors.
+	-> Design orientado a componentes 
+
+
+- Arquiteturas de Sistemas 
+
+	* Centralizados: Uma camada simples conectada a multiplas camadas 
+
+	* Cliente-Servidor: um cliente requisita um servidor 
+		-> interface, processamento e dados 
+
+	* Peer-to-Peer: Distribuição horizontal, divididos em partes que fazem as mesmas
+	operações. 
+		-> Estruturado: hash map para localizar os dados
+		-> Não estruturado: grafo randomico -> encontrar dados por flooding,
+		caminhos aleatórios 
+		-> Hierarquico: super peers acoplados a nós menores
+
+	* Arquiteturas híbridas
+		-> Edge-servers (borda): Exemplo: internet service provider,
+		serviços 
+		-> Sistemas colaborativos distribuidos: exemplo: combinar arquiteturas
+			centralizadas e descentralizadas - BitTorrente
+
+- Exemplos
+	- Network file Systems (NFS)
+08:14
+Japa
+li ainda não
+09:14
+eita, ce ja fez ate resumo?
+09:14
+Tava lendo agora no trabson
+09:15
+Dani Crazy
+Muito bom, Thau.
+09:15
+Onde eh a aula
+19:06
+?
+19:06
+Japa
+209
+19:06
+Tks
+19:06
+Japa
+\o
+19:06
+9d2yvn
+19:18
+Codigo
+19:18
+Dani Crazy
+Você
+9d2yvn
+Valeu.
+19:58
+Japa
+DH
+20:28
+T
+20:28
+E Pee to Pee
+20:28
+Pq tem uma etiqueta na camisa dele ?
+20:28
+Japa
+Roubou
+20:29
+A C&
+20:29
+Dani Crazy
+Você
+Pq tem uma etiqueta na camisa dele ?
+Eu reparei nisso também.
+20:29
+É para não perder com a dos coleguinhas.
+20:29
+Você adicionou Alexandre Hild
+Bem vindo
+21:08
+Alexandre Hild
+😊
+21:09
+QUINTA-FEIRA
+DISTRIBUTED HASH TABLE
+
+-> Representação clássica: um identificador de m-bits assinado randomicamente a uma chave para identifica-lo. Geralmente
+os bits são 128 ou 160, dependendo da função. Uma chave K fica sob um nó com os menor id >= K.
+
+
+Abordagem distribuída: Cada nó tem uma " finger table " contendo s <= m entradas. Então por exemplo, se o
+identificador de bits é 128, cada nó precisa ter um número de entradas <= 128. 
+
+Fórmula: FT[i] = succ(p + 2^(i-1))   [nao entendirrrrr]
+
+-> nao entendi como ele constrói essa tabela
+
+-> roteamento... inicia no nó 1. Escolhe o nó 18 porque é o mais perto de 26? O que define os números da esquerda? 
+
+Resumo dehoje: nao entendi nada
+08:47
+Bruna
+Partilho do seu não entendimento...
+08:56
+Bruna
+Partilho do seu não entendimento...
+😂
+😂
+😂
+08:57
+Dani Crazy
+Hehehe
+09:15
+Vou ler jájá.
+09:15
+Alexandre Hild
+Matéria boa essa nossa
+10:23
+Ei gente alguém me manda por favor esse texto
+10:24
+não tenho acesso ao moodle
+10:24
+Vc tem o livro?
+10:26
+É do livro
+10:26
+Pags 246 a 251
+10:26
+Alexandre Hild
+Afff ele não ia separar um outro texto???
+10:26
+🤷🏻‍♀
+🤷🏻‍♀
+10:27
+Alexandre Hild
+Acho que precisamos fazer chamada oral é com ele
+10:27
+Dani Crazy
+Hehehehehe
+11:18
+Melhor não, ele vai passar vergonha.
+11:18
+Japa
+Corb
+21:49
+Você alterou o título para “SD - Arlind”
+Alexandre Hild adicionou +55 11 98623-8911
+Você adicionou Patricia
+ONTEM
+17:45
+Alexandre Hild
+HAHAHAHAHHAHAHAHAHAHAHAHAH
+17:47
+#TerraDonut
+17:49
+Japa
+#Elementar
+18:07
+HOJE
+Threads
+
+Processo: o sistema operacional cria um processador virtual.
+Cada processador tem uma tabela de processo que armazena informações 
+da CPU, memória, arquivos, etc. Tudo isso se chama contexto
+
+Um processo é definido como um programa em execução em um desses 
+processadores.
+-> Issue: processos rodando ao mesmo tempo. O SO tem que garantir que 
+os processos sejam independentes entre si. 
+
+Diferentente de processos, as threads buscam armazenar o mínimo de informação
+possível pra aumentar a concorrência -> CPU conseguir compartilhar o maior 
+numero de threads possível. 
+
+Desafios -> Desenvolver um sistema multi thread pois threads nao são 
+protegidas e podem causar problema de concorrência.
+
+Vantagens -> Distribuir execuções entre as threads (prevenir que processos 
+fiquem bloqueados). Além disso facilita a troca de contexto.
+
+* Implementação 
+	-> Operações de criar/destruir threads.
+	-> Duas formas: usar uma library ou distribuir a função para o kernel 
+	
+* Modelos
+
+-> Many-To-One: muitas threads sao mapeadas para uma unica entidade. Entretanto, um bloqueio ira travar todo o processo. (user level)
+
+-> One-To-One: Cada thread é uma entidade. Cada operação necessita de uma chamada do sistema -> aumento no custo de troca de contexto.  (kernel level)
+
+-> Many-To-Many: LWP (?) 
+
+Vantagem de processos sobre thread: o processo reserva os dados para si. Grande desafio de se programar com threads: é de total responsabilidade do desenvolver garantir que as threads vao compartilhar o espaço corretamente.
+
+* Threads em sistemas distribuidos 
+
+-> Client multi thread 
+	Exemplo: sistema web -> ir disponibilizando os dados na medida que sao
+	carregados. 
+
+-> Server multi thread 
+	Exemplo: cada thread para gerenciar um request vindo do lado do cliente 
+
+	* Modelos 
+	- Multi thread -> paralelismo, bloqueia chamadas do sistema 
+	- Single-thread -> sem paralelismo, bloqueia chamada do sistema 
+	- Maquina de estado finitos -> paralelismo, nao bloqueia chamadas 
+
+* Virtualização 
+
+	-> Troca de contextos podem ocorrer muito rapidamente em uma CPU, gerando a impressão que existe um sistema paralelo. A separação de ter uma única CPU e parecer que existe mais pode ser extendida a outros tipos de recurso: virtualização. 
+	
+	* Principios
+	-> Virtualização trata de extender ou trocar interfaces existentes para parecer que existe mais de um sistema, se comportar como diferentes sistemas. 
+	
+	Vantagens 
+	- Fazer o porting de sistemas legados (tratar as interfaces legado em novas plataformas) 
+	- Escalabilidade: plataformas rodando seus próprios programas em suas máquinas virtuais ao mesmo tempo que se conectam em uma plataforma comum
+	
+	* Tipos de Virtualização 
+	
+	Para entender os tipos, é necessario entender as interfaces de um sistema computacional 
+	
+	1 - Interface entre o hardware e o software (conjunto de instruções - privilegiados e gerais)
+	2 - Interface de chamadas do sistema 
+	3 - Interface consistindo de chamadas de libraries -> APIs 
+	
+	Virtualização imita o comportamento dessas interfaces 
+	
+* Tipos 
+
+	* Process Virtual Machine: … Ler mais
+13:27
