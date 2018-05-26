@@ -1,0 +1,176 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.springws.hr</groupId>
+  <artifactId>Seminario</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Seminario</name>
+  <url>http://maven.apache.org</url>
+  
+  <repositories>
+    <repository>
+      <id>org.springframework.ws</id>
+       <url>http://www.springframework.org/spring-ws</url>
+    </repository>
+ </repositories>
+ 
+   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <dependencies>
+ 
+    <!-- JUnit testing framework -->
+        <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>3.8.1</version>
+                <scope>test</scope>
+        </dependency>
+
+       
+        <!-- Spring AOP dependency -->
+        <dependency>
+    	        <groupId>cglib</groupId>
+		<artifactId>cglib</artifactId>
+		<version>2.2</version>
+	</dependency>
+    
+  
+
+
+      
+
+        <!-- MySQL database driver -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.9</version>
+	</dependency>
+	
+	<!-- Hibernate framework -->
+	<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>4.0.1.Final</version>
+</dependency>
+        
+	<!-- Hibernate library dependecy start -->
+	<dependency>
+		<groupId>dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>1.6.1</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>commons-logging</groupId>
+		<artifactId>commons-logging</artifactId>
+		<version>1.1.1</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>commons-collections</groupId>
+		<artifactId>commons-collections</artifactId>
+		<version>3.2.1</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>antlr</groupId>
+		<artifactId>antlr</artifactId>
+		<version>2.7.7</version>
+	</dependency>
+	
+	
+
+<dependency>
+    <groupId>wsdl4j</groupId>
+    <artifactId>wsdl4j</artifactId>
+    <version>1.6.2</version>
+    </dependency>
+    
+  
+      
+      <dependency>
+         <groupId>jaxen</groupId>
+         <artifactId>jaxen</artifactId>
+         <version>1.1</version>
+      </dependency>
+
+  
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-orm</artifactId>
+    <version>4.0.5.RELEASE</version>
+</dependency>
+	
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-oxm</artifactId>
+             <version>4.0.5.RELEASE</version>
+        </dependency>
+       
+		<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>4.0.5.RELEASE</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>4.0.5.RELEASE</version>
+</dependency>
+		
+      <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+     <version>4.0.5.RELEASE</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-beans</artifactId>
+    <version>4.0.5.RELEASE</version>
+</dependency>
+	  
+	  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>4.0.5.RELEASE</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>4.0.5.RELEASE</version>
+</dependency>
+	  
+	  <dependency>
+         <groupId>org.springframework.ws</groupId>
+         <artifactId>spring-ws-core</artifactId>
+          <version>3.0.1.RELEASE</version>
+      </dependency>
+	  
+	      <dependency>
+    <groupId>org.springframework.ws</groupId>
+    <artifactId>spring-ws</artifactId>
+    <version>3.0.1.RELEASE</version>
+    <type>pom</type>
+	
+</dependency>
+	  
+      <dependency>
+    <groupId>org.jdom</groupId>
+    <artifactId>jdom2</artifactId>
+    <version>2.0.6</version>
+</dependency>
+
+<dependency>
+		<groupId>dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>1.6.1</version>
+	</dependency>
+  </dependencies>
+  
+</project>

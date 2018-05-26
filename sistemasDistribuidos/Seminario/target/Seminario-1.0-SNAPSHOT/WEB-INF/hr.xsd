@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema"
+   xmlns:hr = "http://tutorialspoint.com/hr/schemas"
+   elementFormDefault = "qualified"
+   targetNamespace = "http://tutorialspoint.com/hr/schemas">
+
+   <xs:element name = "LeaveRequest">
+      <xs:complexType>
+         <xs:all>
+            <xs:element name = "myNickName" type = "xs:string"/>
+            <xs:element name = "friendNickName" type = "xs:string"/>
+         </xs:all>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

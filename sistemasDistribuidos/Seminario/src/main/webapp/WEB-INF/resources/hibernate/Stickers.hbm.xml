@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.springws.model.Stickers" table="stickers" catalog="springws">
+
+        <id name="stickerId" type="java.lang.Long">
+            <column name="STICKER_ID" />
+            <generator class="identity" />
+        </id>
+
+        <property name="stickerName" type="string">
+            <column name="STICKER_NAME" length="60" not-null="true" />
+        </property>
+        
+        <property name="stickerNumber" type="java.lang.Long">
+            <column name="STICKER_NUMBER" not-null="true" />
+        </property>
+        
+        <property name="isBright" type="yes_no">
+            <column name="IS_BRIGHT" not-null="true" />
+        </property>
+        
+        <many-to-one name="album" class="com.springws.model.Album"
+            column="ALBUM_ID"  not-null="true"
+            cascade="all" />
+    </class>
+</hibernate-mapping>

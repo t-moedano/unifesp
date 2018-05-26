@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <!-- Stock business object -->
+   <bean id="stickersBo" class="com.springws.bo.impl.StickersBoImpl">
+   		<property name="stickersDao" ref="stickersDao" />
+   </bean>
+ 
+   <!-- Stock Data Access Object -->
+   <bean id="stickersDao" class="com.springws.dao.StickersDAO" >
+   		<property name="sessionFactory" ref="sessionFactory"></property>
+   </bean>
+   
+</beans>

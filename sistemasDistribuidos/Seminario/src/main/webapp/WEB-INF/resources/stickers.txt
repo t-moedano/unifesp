@@ -1,0 +1,682 @@
+0#Panini Knight Logo#true
+1#FIFA Logo#true
+2#World Cup Trophy#true
+3#18 World Cup Graphic Top#true
+4#18 World Cup Graphic Bottom#true
+5#18 World Cup Logo Top#true
+6#18 World Cup Logo Bottom#true
+7#adidas Official Ball#true
+8#Ekaterinburg Arena#false
+9#Kaliningrad Stadium#false
+10#Kazan Arena#false
+11#Spartak Stadium#false
+12#Nizhny Novgorod Stadium#false
+13#Luzhniki Stadium#false
+14#Rostov Arena#false
+15#Saint Petersburg Stadium#false
+16#Samara Arena#false
+17#Mordovia Arena#false
+18#Fisht Stadium#false
+19#Volgograd Arena#false
+20#Moscow Host City Poster part 1#false
+21#Moscow Host City Poster part 2#false
+22#Kaliningrad Host City Poster#false
+23#Saint Petersburg Host City Poster#false
+24#Sochi Host City Poster#false
+25#Rostov-On-Don Host City Poster#false
+26#Volgograd Host City Poster#false
+27#Kazan Host City Poster#false
+28#Nizhny Novgorod Host City Poster#false
+29#Samara Host City Poster#false
+30#Ekaterinburg Host City Poster#false
+31#Saransk Host City Poster#false
+32#Russia Team Logo#true
+33#Russia Team Photo#false
+34#Igor Akinfeev#false
+35#Igor Smolnikov#false
+36#Viktor Vasin#false
+37#Mario Fernandes#false
+38#Fedor Kudryashov#false
+39#Ilya Kutepov#false
+40#Dmitri Kombarov#false
+41#Aleksei Miranchuk#false
+42#Denis Glushakov#false
+43#Aleksandr Golovin#false
+44#Yuri Zhirkov#false
+45#Aleksandr Samedov#false
+46#Aleksandr Erokhin#false
+47#Alan Dzagoev#false
+48#Daler Kuzyayev#false
+49#Dmitry Poloz#false
+50#Fedor Smolov#false
+51#Aleksandr Kokorin#false
+52#Saudi Arabia Team Logo#true
+53#Saudi Arabia Team Photo#false
+54#Abdullah Al-Mayouf#false
+55#Osama Hawsawi#false
+56#Abdullah Al-Zori#false
+57#Mansour Al-Harbi#false
+58#Omar Hawsawi#false
+59#Yasser Al-Shahrani#false
+60#Motaz Hawsawi#false
+61#Mohammed Al-Beraik#false
+62#Taisir Al-Jassim#false
+63#Salman Al-Faraj#false
+64#Abdulmalek Al-Khaibri#false
+65#Salman Al-Moasher#false
+66#Yahya Al-Shehri#false
+67#Salem Al-Dosari#false
+68#Nawaf Al-Abed#false
+69#Mohammad Al-Sahlawi#false
+70#Nasser Al-Shamrani#false
+71#Fahad Al-Muwallad#false
+72#Egypt Team Logo#true
+73#Egypt Team Photo#false
+74#Essam El Hadary#false
+75#Ali Gabr#false
+76#Ahmed Elmohamady#false
+77#Omar Gaber#false
+78#Ramy Rabia#false
+79#Ahmed Hegazi#false
+80#Ahmed Abdelmonem Fathy#false
+81#Mohamed Abdel Shafy#false
+82#Saad El-Din Samir#false
+83#Tarek Hamed#false
+84#Mahmoud Kahraba#false
+85#Mohamed Elneny#false
+86#Trezeguet#false
+87#Abdallah El Said#false
+88#Ramadan Sobhi#false
+89#Ahmed Hassan#false
+90#Mohamed Salah#false
+91#Amr Gamal#false
+92#Uruguay Team Logo#true
+93#Uruguay Team Photo#false
+94#Fernando Muslera#false
+95#Maxi Pereira#false
+96#Diego Godin#false
+97#Martin Caceres#false
+98#Jose Gimenez#false
+99#Sebastian Coates#false
+100#Gaston Silva#false
+101#Mathias Corujo#false
+102#Egidio Arevalo Rios#false
+103#Alvaro Gonzalez#false
+104#Nicolas Lodeiro#false
+105#Carlos Sanchez#false
+106#Cristian Rodriguez#false
+107#Matias Vecino#false
+108#Edinson Cavani#false
+109#Luis Suarez#false
+110#Cristhian Stuani#false
+111#Diego Rolan#false
+112#Portugal Team Logo#true
+113#Portugal Team Photo#false
+114#Rui Patricio#false
+115#Bruno Alves#false
+116#Pepe#false
+117#Jose Fonte#false
+118#Eliseu#false
+119#Cedric#false
+120#Raphael Guerreiro#false
+121#Joao Moutinho#false
+122#Joao Mario#false
+123#Danilo Pereira#false
+124#William Carvalho#false
+125#Andre Gomes#false
+126#Ricardo Quaresma#false
+127#Bernardo Silva#false
+128#Andre Silva#false
+129#Gelson Martins#false
+130#Cristiano Ronaldo#false
+131#Nani#false
+132#Spain Team Logo#true
+133#Spain Team Photo#false
+134#David de Gea#false
+135#Jordi Alba#false
+136#Nacho#false
+137#Nacho Monreal#false
+138#Gerard Pique#false
+139#Sergio Ramos#false
+140#Daniel Carvajal#false
+141#Sergio Busquets#false
+142#Thiago#false
+143#Isco#false
+144#Koke#false
+145#Marco Asensio#false
+146#Andres Iniesta#false
+147#David Silva#false
+148#Saul Niguez#false
+149#Alvaro Morata#false
+150#Vitolo#false
+151#Diego Costa#false
+152#Morocco Team Logo#true
+153#Morocco Team Photo#false
+154#Munir Mohamedi#false
+155#Medhi Benatia#false
+156#Nabil Dirar#false
+157#Romain Saiss#false
+158#Fouad Chafik#false
+159#Hamza Mendyl#false
+160#Achraf Hakimi#false
+161#Mbark Boussoufa#false
+162#Karim El Ahmadi#false
+163#Younes Belhanda#false
+164#Nordin Amrabat#false
+165#Faycal Fajr#false
+166#Hakim Ziyech#false
+167#Youssef Ait Bennasser#false
+168#Khalid Boutaib#false
+169#Rachid Alioui#false
+170#Aziz Bouhaddouz#false
+171#Youssef En-Nesyri#false
+172#Iran Team Logo#true
+173#Iran Team Photo#false
+174#Alireza Beiranvand#false
+175#Pejman Montazeri#false
+176#Vouria Ghafouri#false
+177#Jalal Hosseini#false
+178#Milad Mohammadi#false
+179#Morteza Pouraliganji#false
+180#Ramin Rezaeian#false
+181#Ehsan Hajsafi#false
+182#Omid Ebrahimi#false
+183#Saeid Ezatolahi#false
+184#Vahid Amiri#false
+185#Alireza Jahanbakhsh#false
+186#Ashkan Dejagah#false
+187#Saman Ghoddos#false
+188#Mehdi Taremi#false
+189#Karim Ansarifard#false
+190#Reza Ghoochannejhad#false
+191#Sardar Azmoun#false
+192#France Team Logo#true
+193#France Team Photo#false
+194#Hugo Lloris#false
+195#Raphael Varane#false
+196#Lucas Digne#false
+197#Djibril Sidibe#false
+198#Samuel Umtiti#false
+199#Layvin Kurzawa#false
+200#Laurent Koscielny#false
+201#Blaise Matuidi#false
+202#N’Golo Kante#false
+203#Thomas Lemar#false
+204#Adrien Rabiot#false
+205#Paul Pogba#false
+206#Olivier Giroud#false
+207#Antoine Griezmann#false
+208#Alexandre Lacazette#false
+209#Kylian Mbappe#false
+210#Ousmane Dembele#false
+211#Anthony Martial#false
+212#Australia Team Logo#true
+213#Australia Team Photo#false
+214#Mathew Ryan#false
+215#Mitchell Langerak#false
+216#Milos Degenek#false
+217#Bailey Wright#false
+218#Aziz Behich#false
+219#Trent Sainsbury#false
+220#Ryan McGowan#false
+221#Mark Milligan#false
+222#Aaron Mooy#false
+223#James Troisi#false
+224#Mile Jedinak#false
+225#Massimo Luongo#false
+226#Jackson Irvine#false
+227#Tom Rogic#false
+228#Tim Cahill#false
+229#Mathew Leckie#false
+230#Tomi Juric#false
+231#Robbie Kruse#false
+232#Peru Team Logo#true
+233#Peru Team Photo#false
+234#Pedro Gallese#false
+235#Carlos Caceda#false
+236#Aldo Corzo#false
+237#Miguel Trauco#false
+238#Christian Ramos#false
+239#Luis Advincula#false
+240#Alberto Rodriguez#false
+241#Miguel Araujo#false
+242#Christian Cueva#false
+243#Renato Tapia#false
+244#Andy Polo#false
+245#Yoshimar Yotun#false
+246#Edison Flores#false
+247#Paolo Hurtado#false
+248#Paolo Guerrero#false
+249#Jefferson Farfan#false
+250#Raul Ruidiaz#false
+251#Andre Carrillo#false
+252#Denmark Team Logo#true
+253#Denmark Team Photo#false
+254#Kasper Schmeichel#false
+255#Jannik Vestergaard#false
+256#Simon Kjaer#false
+257#Andreas Christensen#false
+258#Andreas Bjelland#false
+259#Mathias Jorgensen#false
+260#Jens Stryger Larsen#false
+261#Peter Ankersen#false
+262#Riza Durmisi#false
+263#William Kvist#false
+264#Thomas Delaney#false
+265#Christian Eriksen#false
+266#Lasse Schone#false
+267#Pione Sisto#false
+268#Nicklas Bendtner#false
+269#Nicolai Jorgensen#false
+270#Yussuf Poulsen#false
+271#Andreas Cornelius#false
+272#Argentina Team Logo#true
+273#Argentina Team Photo#false
+274#Sergio Romero#false
+275#Gabriel Mercado#false
+276#Federico Fazio#false
+277#Javier Mascherano#false
+278#Nicolas Otamendi#false
+279#Marcos Rojo#false
+280#Ramiro Funes Mori#false
+281#Lucas Biglia#false
+282#Enzo Perez#false
+283#Angel Di Maria#false
+284#Marcos Acuna#false
+285#Ever Banega#false
+286#Eduardo Salvio#false
+287#Mauro Icardi#false
+288#Lionel Messi#false
+289#Paulo Dybala#false
+290#Sergio Aguero#false
+291#Gonzalo Higuain#false
+292#Iceland Team Logo#true
+293#Iceland Team Photo#false
+294#Hannes Halldorsson#false
+295#Birkir Saevarsson#false
+296#Ragnar Sigurdsson#false
+297#Kari Arnason#false
+298#Ari Skulason#false
+299#Sverrir Ingason#false
+300#Hordur Magnusson#false
+301#Aron Gunnarsson#false
+302#Birkir Bjarnason#false
+303#Emil Hallfredsson#false
+304#Gylfi Sigurdsson#false
+305#Arnor Ingvi Traustason#false
+306#Rurik Gislason#false
+307#Johann Gudmundsson#false
+308#Alfred Finnbogason#false
+309#Jon Dadi Bodvarsson#false
+310#Vidar Orn Kjartansson#false
+311#Bjorn Sigurdarson#false
+312#Croatia Team Logo#true
+313#Croatia Team Photo#false
+314#Danijel Subasic#false
+315#Sime Vrsaljko#false
+316#Ivan Strinic#false
+317#Dejan Lovren#false
+318#Domagoj Vida#false
+319#Josip Pivaric#false
+320#Vedran Corluka#false
+321#Ivan Rakitic#false
+322#Luka Modric#false
+323#Marcelo Brozovic#false
+324#Marko Rog#false
+325#Mario Pasalic#false
+326#Milan Badelj#false
+327#Mateo Kovacic#false
+328#Andrej Kramaric#false
+329#Nikola Kalinic#false
+330#Mario Mandzukic#false
+331#Ivan Perisic#false
+332#Nigeria Team Logo#true
+333#Nigeria Team Photo#false
+334#Ikechukwu Ezenwa#false
+335#Elderson Echiejile#false
+336#Shehu Abdullahi#false
+337#William Troost-Ekong#false
+338#Leon Balogun#false
+339#Kenneth Omeruo#false
+340#Ola Aina#false
+341#John Obi Mikel#false
+342#Ogenyi Onazi#false
+343#Etebo Oghenekaro#false
+344#Wilfred Ndidi#false
+345#Mikel Agu#false
+346#Ahmed Musa#false
+347#Victor Moses#false
+348#Moses Simon#false
+349#Odion Ighalo#false
+350#Alex Iwobi#false
+351#Kelechi Iheanacho#false
+352#Brazil Team Logo#true
+353#Brazil Team Photo#false
+354#Alisson#false
+355#Dani Alves#false
+356#Thiago Silva#false
+357#Miranda#false
+358#Filipe Luis#false
+359#Marquinhos#false
+360#Marcelo#false
+361#Willian#false
+362#Paulinho#false
+363#Fernandinho#false
+364#Casemiro#false
+365#Renato Augusto#false
+366#Giuliano#false
+367#Philippe Coutinho#false
+368#Douglas Costa#false
+369#Roberto Firmino#false
+370#Gabriel Jesus#false
+371#Neymar Jr#false
+372#Switzerland Team Logo#true
+373#Switzerland Team Photo#false
+374#Yann Sommer#false
+375#Stephan Lichtsteiner#false
+376#Manuel Akanji#false
+377#Michael Lang#false
+378#Ricardo Rodriguez#false
+379#Johan Djourou#false
+380#Fabian Schar#false
+381#Granit Xhaka#false
+382#Steven Zuber#false
+383#Blerim Dzemaili#false
+384#Denis Zakaria#false
+385#Xherdan Shaqiri#false
+386#Valon Behrami#false
+387#Gelson Fernandes#false
+388#Breel Embolo#false
+389#Haris Seferovic#false
+390#Admir Mehmedi#false
+391#Eren Derdiyok#false
+392#Costa Rica Team Logo#true
+393#Costa Rica Team Photo#false
+394#Keylor Navas#false
+395#Giancarlo Gonzalez#false
+396#Cristian Gamboa#false
+397#Bryan Oviedo#false
+398#Francisco Calvo#false
+399#Kendall Waston#false
+400#Ronald Matarrita#false
+401#Michael Umana#false
+402#Johnny Acosta#false
+403#Bryan Ruiz#false
+404#Celso Borges#false
+405#Christian Bolanos#false
+406#Randall Azofeifa#false
+407#David Guzman#false
+408#Rodney Wallace#false
+409#Joel Campbell#false
+410#Marco Urena#false
+411#Johan Venegas#false
+412#Serbia Team Logo#true
+413#Serbia Team Photo#false
+414#Vladimir Stojkovic#false
+415#Branislav Ivanovic#false
+416#Aleksandar Kolarov#false
+417#Antonio Rukavina#false
+418#Matija Nastasic#false
+419#Dusko Tosic#false
+420#Nikola Maksimovic#false
+421#Jagos Vukovic#false
+422#Dusan Tadic#false
+423#Sergej Milinkovic-Savic#false
+424#Nemanja Matic#false
+425#Luka Milivojevic#false
+426#Adem Ljajic#false
+427#Nemanja Gudelj#false
+428#Mijat Gacinovic#false
+429#Filip Kostic#false
+430#Aleksandar Mitrovic#false
+431#Aleksandar Prijovic#false
+432#Germany Team Logo#true
+433#Germany Team Photo#false
+434#Manuel Neuer#false
+435#Mats Hummels#false
+436#Antonio Rudiger#false
+437#Jerome Boateng#false
+438#Joshua Kimmich#false
+439#Jonas Hector#false
+440#Julian Draxler#false
+441#Toni Kroos#false
+442#Emre Can#false
+443#Leon Goretzka#false
+444#Julian Brandt#false
+445#Sebastian Rudy#false
+446#Leroy Sane#false
+447#Mesut Ozil#false
+448#Sami Khedira#false
+449#Mario Gotze#false
+450#Thomas Muller#false
+451#Timo Werner#false
+452#Mexico Team Logo#true
+453#Mexico Team Photo#false
+454#Guillermo Ochoa#false
+455#Hugo Ayala#false
+456#Diego Reyes#false
+457#Hector Moreno#false
+458#Jesus Gallardo#false
+459#Miguel Layun#false
+460#Carlos Salcedo#false
+461#Jonathan dos Santos#false
+462#Giovani dos Santos#false
+463#Andres Guardado#false
+464#Hector Herrera#false
+465#Javier Aquino#false
+466#Jesus Corona#false
+467#Hirving Lozano#false
+468#Raul Jimenez#false
+469#Carlos Vela#false
+470#Javier Hernandez#false
+471#Oribe Peralta#false
+472#Sweden Team Logo#true
+473#Sweden Team Photo#false
+474#Robin Olsen#false
+475#Mikael Lustig#false
+476#Victor Nilsson Lindelof#false
+477#Andreas Granqvist#false
+478#Martin Olsson#false
+479#Ludwig Augustinsson#false
+480#Emil Krafth#false
+481#Pontus Jansson#false
+482#Sebastian Larsson#false
+483#Emil Forsberg#false
+484#Gustav Svensson#false
+485#Viktor Claesson#false
+486#Jimmy Durmaz#false
+487#Albin Ekdal#false
+488#Isaac Kiese Thelin#false
+489#Marcus Berg#false
+490#John Guidetti#false
+491#Ola Toivonen#false
+492#Korea Republic Team Logo#true
+493#Korea Republic Team Photo#false
+494#Kim Seunggyu#false
+495#Kim Younggwon#false
+496#Kim Jinsu#false
+497#Kwak Taehwi#false
+498#Hong Jeongho#false
+499#Jang Hyunsoo#false
+500#Koo Jacheol#false
+501#Kwon Changhoon#false
+502#Ki Sungyueng#false
+503#Nam Taehee#false
+504#Han Kookyoung#false
+505#Lee Chungyong#false
+506#Jung Wooyoung#false
+507#Lee Jaesung#false
+508#Son Heungmin#false
+509#Ji Dongwon#false
+510#Kim Shinwook#false
+511#Hwang Heechan#false
+512#Belgium Team Logo#true
+513#Belgium Team Photo#false
+514#Thibaut Courtois#false
+515#Toby Alderweireld#false
+516#Thomas Vermaelen#false
+517#Jan Vertonghen#false
+518#Vincent Kompany#false
+519#Thomas Meunier#false
+520#Axel Witsel#false
+521#Radja Nainggolan#false
+522#Kevin De Bruyne#false
+523#Marouane Fellaini#false
+524#Youri Tielemans#false
+525#Mousa Dembele#false
+526#Nacer Chadli#false
+527#Eden Hazard#false
+528#Yannick Carrasco#false
+529#Dries Mertens#false
+530#Michy Batshuayi#false
+531#Romelu Lukaku#false
+532#Panama Team Logo#true
+533#Panama Team Photo#false
+534#Jaime Penedo#false
+535#Jose Calderon#false
+536#Michael Murillo#false
+537#Fidel Escobar#false
+538#Roman Torres#false
+539#Adolfo Machado#false
+540#Eric Davis#false
+541#Luis Ovalle#false
+542#Felipe Baloy#false
+543#Gabriel Gomez#false
+544#Edgar Barcenas#false
+545#Armando Cooper#false
+546#Alberto Quintero#false
+547#Anibal Godoy#false
+548#Blas Perez#false
+549#Gabriel Torres#false
+550#Luis Tejada#false
+551#Abdiel Arroyo#false
+552#Tunisia Team Logo#true
+553#Tunisia Team Photo#false
+554#Aymen Mathlouthi#false
+555#Ali Maaloul#false
+556#Syam Ben Youssef#false
+557#Aymen Abdennour#false
+558#Hamdi Naguez#false
+559#Yassine Meriah#false
+560#Oussama Haddadi#false
+561#Ferjani Sassi#false
+562#Wahbi Khazri#false
+563#Mohamed Amine Ben Amor#false
+564#Ghaylene Chaalali#false
+565#Naim Sliti#false
+566#Youssef Msakni#false
+567#Fakhreddine Ben Youssef#false
+568#Taha Yassine Khenissi#false
+569#Yoann Touzghar#false
+570#Anice Badri#false
+571#Ahmed Akaichi#false
+572#England Team Logo#true
+573#England Team Photo#false
+574#Joe Hart#false
+575#Jordan Pickford#false
+576#Gary Cahill#false
+577#Kyle Walker#false
+578#John Stones#false
+579#Ryan Bertrand#false
+580#Danny Rose#false
+581#Phil Jones#false
+582#Jordan Henderson#false
+583#Alex Oxlade-Chamberlain#false
+584#Dele Alli#false
+585#Eric Dier#false
+586#Adam Lallana#false
+587#Jesse Lingard#false
+588#Raheem Sterling#false
+589#Harry Kane#false
+590#Marcus Rashford#false
+591#Jamie Vardy#false
+592#Poland Team Logo#true
+593#Poland Team Photo#false
+594#Lukasz Fabianski#false
+595#Wojciech Szczesny#false
+596#Lukasz Piszczek#false
+597#Kamil Glik#false
+598#Michal Pazdan#false
+599#Thiago Cionek#false
+600#Bartosz Bereszynski#false
+601#Artur Jedrzejczyk#false
+602#Maciej Rybus#false
+603#Jakub Blaszczykowski#false
+604#Kamil Grosicki#false
+605#Grzegorz Krychowiak#false
+606#Krzysztof Maczynski#false
+607#Piotr Zielinski#false
+608#Karol Linetty#false
+609#Robert Lewandowski#false
+610#Lukasz Teodorczyk#false
+611#Arkadiusz Milik#false
+612#Senegal Team Logo#true
+613#Senegal Team Photo#false
+614#Khadim N Diaye#false
+615#Kara Mbodj#false
+616#Lamine Gassama#false
+617#Kalidou Koulibaly#false
+618#Salif Sane#false
+619#Saliou Ciss#false
+620#Moussa Wague#false
+621#Idrissa Gueye#false
+622#Cheikhou Kouyate#false
+623#Cheikh Ndoye#false
+624#Papa Alioune N’Diaye#false
+625#Sadio Mane#false
+626#Moussa Sow#false
+627#Moussa Konate#false
+628#Keita Balde#false
+629#M Baye Niang#false
+630#Ismaila Sarr#false
+631#Mame Diouf#false
+632#Colombia Team Logo#true
+633#Colombia Team Photo#false
+634#David Ospina#false
+635#Cristian Zapata#false
+636#Santiago Arias#false
+637#Frank Fabra#false
+638#Davinson Sanchez#false
+639#Yerry Mina#false
+640#Carlos Sanchez#false
+641#Juan Guillermo Cuadrado#false
+642#Abel Aguilar#false
+643#James Rodriguez#false
+644#Giovanni Moreno#false
+645#Wilmar Barrios#false
+646#Radamel Falcao Garcia#false
+647#Teofilo Gutierrez#false
+648#Carlos Bacca#false
+649#Edwin Cardona#false
+650#Yimmi Chara#false
+651#Duvan Zapata#false
+652#Japan Team Logo#true
+653#Japan Team Photo#false
+654#Eiji Kawashima#false
+655#Shusaku Nishikawa#false
+656#Masato Morishige#false
+657#Yuto Nagatomo#false
+658#Hiroki Sakai#false
+659#Tomoaki Makino#false
+660#Gotoku Sakai#false
+661#Maya Yoshida#false
+662#Hotaru Yamaguchi#false
+663#Shinji Kagawa#false
+664#Makoto Hasebe#false
+665#Hiroshi Kiyotake#false
+666#Keisuke Honda#false
+667#Takashi Usami#false
+668#Genki Haraguchi#false
+669#Shinji Okazaki#false
+670#Yuya Kubo#false
+671#Yuya Osako#false
+672#58 Brazil WCL#true
+673#14 Germany WCL#true
+674#82 Italy WCL#true
+675#30 Uruguay WCL#true
+676#86 Argentina WCL#true
+677#66 England WCL#true
+678#98 France WCL#true
+679#10 Spain WCL#true
+680#Pele WCL#true
+681#Miroslav Klose WCL#true
