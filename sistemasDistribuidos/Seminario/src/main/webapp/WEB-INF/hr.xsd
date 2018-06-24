@@ -3,7 +3,7 @@
    elementFormDefault = "qualified"
    targetNamespace = "http://tutorialspoint.com/hr/schemas">
 
-   <xs:element name = "LeaveRequest">
+   <xs:element name = "StickerRequest">
       <xs:complexType>
          <xs:all>
             <xs:element name = "myNickName" type = "xs:string"/>

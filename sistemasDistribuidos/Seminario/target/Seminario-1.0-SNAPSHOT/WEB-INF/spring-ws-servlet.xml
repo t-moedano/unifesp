@@ -11,13 +11,13 @@
    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
    <context:component-scan base-package = "com.tutorialspoint.hr"/>
-   <bean id = "humanResourceService"
-      class = "com.tutorialspoint.hr.service.HumanResourceServiceImpl" />
+   <bean id = "checkStickerService"
+      class = "com.tutorialspoint.hr.service.CheckStickerService" />
    <sws:annotation-driven/>
 
-   <sws:dynamic-wsdl id = "leave"
-      portTypeName = "HumanResource"
-      locationUri = "/leaveService/"
+   <sws:dynamic-wsdl id = "sticker"
+      portTypeName = "CheckSticker"
+      locationUri = "/stickerService/"
       targetNamespace = "http://tutorialspoint.com/hr/definitions">
       <sws:xsd location = "/WEB-INF/hr.xsd"/>
    </sws:dynamic-wsdl>

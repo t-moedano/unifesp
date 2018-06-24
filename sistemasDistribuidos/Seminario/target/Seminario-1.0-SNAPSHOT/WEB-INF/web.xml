@@ -20,9 +20,4 @@
       <servlet-name>spring-ws</servlet-name>
       <url-pattern>/*</url-pattern>
    </servlet-mapping>
-   
-   <filter>
-    <filter-name>osiv-filter</filter-name>
-    <filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
-</filter>
 </web-app>
