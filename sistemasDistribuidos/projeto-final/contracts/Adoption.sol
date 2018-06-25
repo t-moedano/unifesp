@@ -36,4 +36,11 @@ contract Adoption {
     function getEventId() public view returns (uint) {
         return registrants[msg.sender];
     }
+    
+    /** TO BE IMPLEMENTED 
+    function transferSubscription(address addressTrans) public payable {
+		require(registransts[msg.sender] != 0 && registrants[addressTrans] == 0);
+		registrants[addressTrans] = registrants[msg.sender];
+		registrants[msg.sender] = 0;
+	} */
 }
