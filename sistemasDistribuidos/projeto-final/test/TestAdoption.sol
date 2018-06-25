@@ -9,32 +9,26 @@ contract TestAdoption {
     Adoption adoption = Adoption(DeployedAddresses.Adoption());
     // Testing the adopt() function
 
-    function testUserCanAdoptPet() public {
-        uint returnedId = adoption.adopt(8);
+    function testSubscription() public {
+        uint returnedId = adoption.subscribe(2, 10);
+        uint expected = 2;
 
-        uint expected = 8;
-
-        Assert.equal(returnedId, expected, "Adoption of pet ID 8 should be recorded.");
+        Assert.equal(returnedId, expected, "event id was not recorded");
     }
 
-    // Testing retrieval of a single pet's owner
-    function testGetAdopterAddressByPetId() public {
-  // Expected owner is this contract
-        address expected = this;
+    function testUnSubs() public {
+        adoption.subscribe(2, 10);
+        uint returnedId = adoption.unscribe(2);
+        uint expected = 0;
 
-        address adopter = adoption.adopters(8);
-
-        Assert.equal(adopter, expected, "Owner of pet ID 8 should be recorded.");
+        Assert.equal(returnedId, expected, "event id should be zero.");
     }
 
-    // Testing retrieval of all pet owners
-    function testGetAdopterAddressByPetIdInArray() public {
-  // Expected owner is this contract
-        address expected = this;
-
-  // Store adopters in memory rather than contract's storage
-        address[16] memory adopters = adoption.getAdopters();
-
-        Assert.equal(adopters[8], expected, "Owner of pet ID 8 should be recorded.");
+    function testTransfer() public {
+      adoption.subscribe(2, 10);
+      address addr = 0x6806e1a300A8AC4668b89377D3f482206E70E745;
+      uint returnedId = adoption.transferSubscription(addr);
+      uint expected = 2;
+      Assert.equal(returnedId, expected, "Event Id 2 should be passed to the new address");
     }
 }
